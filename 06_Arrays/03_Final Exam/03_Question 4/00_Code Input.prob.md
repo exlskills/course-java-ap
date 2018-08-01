@@ -1,7 +1,7 @@
 >>Complete the method <code>firstOrLastSix</code> so that it satisfies the following condition:
 Return true if 6 appears as either the first or last element in the array</p>
 <p>Assume that the length of the array is greater than or equal to 1.
-Use array.length when writing your response.
+Use <code>array.length</code> when writing your response.
 For example:
 <code>int[] varOne = {1, 2, 6};</code>
 <code>int[] varTwo = {6, 1, 2};</code>

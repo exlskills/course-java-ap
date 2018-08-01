@@ -7,4 +7,4 @@ Returns true if the given non-negative number is a multiple of 3.</p>
 
 = the correct answer
 
-||What does the modulus operator do and how can it help you solve this question? ||
+||The modulus operator returns the remainder of two numbers.||

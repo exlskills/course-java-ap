@@ -11,4 +11,4 @@ For example:
 
 = the correct answer
 
-||<code>substring(x,y)</code> method includes the character at index "x" but excludes the character at index "y". ||
+||<code>substring(x,y)</code> method includes the character at index 'x' but excludes the character at index 'y'. ||

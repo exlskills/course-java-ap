@@ -10,8 +10,8 @@ System.out.println(varOne);
 </code></pre>
 <p>What is printed as a result of executing the code segment? <<
 
-( ) A. 0 {{A is incorrect because 6 is printed. Look at the process shown below.}}
-(x) B. 6 {{B is correct because it accurately represents what the while loop does and the number of times the body of the while loop is executed.
+( ) 0 {{Incorrect because 6 is printed. Look at the process shown within the second answer choice.}}
+(x) 6 {{Correct because it accurately represents what the while loop does and the number of times the body of the while loop is executed.
 The process is shown below:
 When varTwo = 30,
 <code>varTwo != 0 // true</code>
@@ -31,8 +31,8 @@ When varTwo = 30,
 <p>When varTwo = 0,
 <code>varTwo != 0 // false</code></p>
 <p>Therefore, <code>varOne</code> = 6 and 6 will be printed as a result of executing the code segment.}}
-( ) C. 12 {{C is incorrect because 6 is printed. Look at the process shown below.}}
-( ) D. 24 {{D is incorrect because 6 is printed. Look at the process shown below.}}
-( ) E. 30 {{E is incorrect because 6 is printed. Look at the process shown below.}}
+( ) 12 {{Incorrect because 6 is printed. Look at the process shown within the second answer choice.}}
+( ) 24 {{Incorrect because 6 is printed. Look at the process shown within the second answer choice.}}
+( ) 30 {{Incorrect because 6 is printed. Look at the process shown within the second answer choice.}}
 
 ||Pay attention to each variable and how it changes as the program is executed. ||

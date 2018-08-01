@@ -9,4 +9,4 @@ return sum;
 
 = the correct answer
 
-||The for each loop must include a colon between the local variable as well as 'varOne'. ||
+||The for-each loop must include a colon between the local variable as well as <code>varOne</code>. ||

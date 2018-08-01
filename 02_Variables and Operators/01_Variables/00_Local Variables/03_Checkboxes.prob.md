@@ -20,10 +20,10 @@
 }
 </code></pre> <<
 
-[ ] <code>varOne</code> {{ selected: incorrect because <code>varOne</code> is declared as a member of the class, making it a field variable.}, { unselected: incorrect because <code>varOne</code> is declared as a member of the class, making it a field variable.}}
-[ ] <code>varTwo</code> {{ selected: incorrect because <code>varOne</code> is declared as a member of the class, making it a field variable.}, { unselected: incorrect because <code>varOne</code> is declared as a member of the class, making it a field variable.}}
-[x] <code>varThree</code> {{ selected: correct because <code>varThree</code> is declared inside a method body.}, { unselected: correct because <code>varThree</code> is declared inside a method body.}}
-[x] <code>varFour</code> {{ selected: correct because <code>varFour</code> is declared inside a method body.}, { unselected: correct because <code>varFour</code> is declared inside a method body.}}
-[x] <code>paramOne</code> {{ selected: correct because <code>paramOne</code> is a parameter and parameters are also local variables.}, { unselected: correct because <code>paramOne</code> is a parameter and parameters are also local variables.}}
+[ ] <code>varOne</code> {{ selected: Incorrect because <code>varOne</code> is declared as a member of the class, making it a field variable.}, { unselected: Incorrect because <code>varOne</code> is declared as a member of the class, making it a field variable.}}
+[ ] <code>varTwo</code> {{ selected: Incorrect because <code>varOne</code> is declared as a member of the class, making it a field variable.}, { unselected: Incorrect because <code>varOne</code> is declared as a member of the class, making it a field variable.}}
+[x] <code>varThree</code> {{ selected: Correct because <code>varThree</code> is declared inside a method body.}, { unselected: Correct because <code>varThree</code> is declared inside a method body.}}
+[x] <code>varFour</code> {{ selected: Correct because <code>varFour</code> is declared inside a method body.}, { unselected: Correct because <code>varFour</code> is declared inside a method body.}}
+[x] <code>paramOne</code> {{ selected: Correct because <code>paramOne</code> is a parameter and parameters are also local variables.}, { unselected: Correct because <code>paramOne</code> is a parameter and parameters are also local variables.}}
 
 ||What is the difference between a local variable and a field variable? ||

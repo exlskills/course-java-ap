@@ -10,7 +10,7 @@ System.out.println(varOne);
 </code></pre>
 <p>What is printed as a result of executing the code segment? <<
 
-(x) [Java, JavaScript, C++] {{correct because it accurately represents how the <code>ArrayList</code> methods change the <code>ArrayList</code>.
+(x) [Java, JavaScript, C++] {{Correct because it accurately represents how the <code>ArrayList</code> methods change the <code>ArrayList</code>.
 The process is shown below:
 <code>ArrayList varOne = new ArrayList(); // varOne = []</code>
 <code>varOne.add("Java"); // varOne = [Java]</code>
@@ -20,9 +20,9 @@ After <code>varOne.set(2, "HTML"); // varOne = [Java, C++, HTML]</code>
 After <code>varOne.add(1, "JavaScript"); // varOne = [Java, JavaScript, C++, HTML]</code>
 After <code>varOne.remove(3); // varOne = [Java, JavaScript, C++]</code></p>
 <p>Therefore, "[Java, JavaScript, C++]" is printed. Note that ArrayList can be printed directly to the console unlike arrays.}}
-( ) [Java, JavaScript, HTML] {{incorrect because "HTML" is removed from the <code>ArrayList</code>. Look at the process shown above.}}
-( ) [Java, HTML, JavaScript] {{incorrect because "HTML" is removed from the <code>ArrayList</code>. Look at the process shown above.}}
-( ) [JavaScript, Java, C++] {{incorrect because the order of the elements are incorrect. Look at the process shown above.}}
-( ) An error would occur. {{incorrect because an error would not occur due to the proper use of these methods.}}
+( ) [Java, JavaScript, HTML] {{Incorrect because "HTML" is removed from the <code>ArrayList</code>. Look at the process shown in the first answer choice.}}
+( ) [Java, HTML, JavaScript] {{Incorrect because "HTML" is removed from the <code>ArrayList</code>. Look at the process shown in the first answer choice.}}
+( ) [JavaScript, Java, C++] {{Incorrect because the order of the elements are incorrect. Look at the process shown in the first answer choice.}}
+( ) An error would occur. {{Incorrect because an error would not occur due to the proper use of these methods.}}
 
-||<code>set(x)</code> changes the value of the element at index x. ||
+||<code>set(x)</code> changes the value of the element at index 'x'. ||

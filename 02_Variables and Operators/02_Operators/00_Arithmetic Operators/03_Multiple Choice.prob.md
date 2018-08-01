@@ -13,15 +13,15 @@
 }
 </code></pre> <<
 
-( ) <code>minutes = flightTime % 60;</code> {{incorrect because the <code>hours</code> variable is not touched and remains at 0.}}
+( ) <code>minutes = flightTime % 60;</code> {{Incorrect because the <code>hours</code> variable is not touched and remains at 0.}}
 (x) <pre><code class="java language-java">hours = hours + flightTime / 60;
 minutes = flightTime % 60;
-</code></pre> {{correct because <code>hours = hours + flightTime / 60</code> accurately returns the number of hours by truncating the decimal
+</code></pre> {{Correct because <code>hours = hours + flightTime / 60</code> accurately returns the number of hours by truncating the decimal
 and <code>minutes = flightTime%60</code> accurately returns the number of minutes by taking the remainder of the division.}}
 ( ) <pre><code class="java language-java">hours = hours + flightTime % 60;
 minutes = flightTime / 60;
-</code></pre> {{incorrect because the wrong arithmetic operators are used when calculating <code>hours</code> and <code>minutes</code>.}}
-( ) <code>minutes = flightTime + flightTime % 60;</code> {{incorrect because the <code>hours</code> variable is not touched and remains at 0. Also, <code>minutes</code> will become a larger value than <code>flightTime</code>, which does not make sense.}}
-( ) <code>hours = flightTime / 60;</code> {{incorrect because the <code>minutes</code> variable is not touched and remains at 0.}}
+</code></pre> {{Incorrect because the wrong arithmetic operators are used when calculating <code>hours</code> and <code>minutes</code>.}}
+( ) <code>minutes = flightTime + flightTime % 60;</code> {{Incorrect because the <code>hours</code> variable is not touched and remains at 0. Also, <code>minutes</code> will become a larger value than <code>flightTime</code>, which does not make sense.}}
+( ) <code>hours = flightTime / 60;</code> {{Incorrect because the <code>minutes</code> variable is not touched and remains at 0.}}
 
 ||Mathematically, how can you get the number of hours from number that only represents minutes? ||

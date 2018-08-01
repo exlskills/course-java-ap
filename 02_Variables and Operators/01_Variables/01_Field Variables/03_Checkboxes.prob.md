@@ -20,10 +20,10 @@
 }
 </code></pre> <<
 
-[x] <code>varOne</code> {{ selected: correct because <code>varOne</code> is declared as a member of the class.}, { unselected: correct because <code>varOne</code> is declared as a member of the class.}}
-[x] <code>varTwo</code> {{ selected: correct because <code>varTwo</code> is declared as a member of the class.}, { unselected: correct because <code>varTwo</code> is declared as a member of the class.}}
-[ ] <code>varThree</code> {{ selected: incorrect because <code>varThree</code> is declared inside the method body.}, { unselected: incorrect because <code>varThree</code> is declared inside the method body.}}
-[ ] <code>varFour</code> {{ selected: incorrect because <code>varFour</code> is declared inside the method body.}, { unselected: incorrect because <code>varFour</code> is declared inside the method body.}}
-[ ] <code>paramOne</code> {{ selected: incorrect because it is declared as a parameter for <code>exampleMethod</code>, also making it a local variable.}, { unselected: incorrect because it is declared as a parameter for <code>exampleMethod</code>, also making it a local variable.}}
+[x] <code>varOne</code> {{ selected: Correct because <code>varOne</code> is declared as a member of the class.}, { unselected: Correct because <code>varOne</code> is declared as a member of the class.}}
+[x] <code>varTwo</code> {{ selected: Correct because <code>varTwo</code> is declared as a member of the class.}, { unselected: Correct because <code>varTwo</code> is declared as a member of the class.}}
+[ ] <code>varThree</code> {{ selected: Incorrect because <code>varThree</code> is declared inside the method body.}, { unselected: Incorrect because <code>varThree</code> is declared inside the method body.}}
+[ ] <code>varFour</code> {{ selected: Incorrect because <code>varFour</code> is declared inside the method body.}, { unselected: Incorrect because <code>varFour</code> is declared inside the method body.}}
+[ ] <code>paramOne</code> {{ selected: Incorrect because it is declared as a parameter for <code>exampleMethod</code>, also making it a local variable.}, { unselected: Incorrect because it is declared as a parameter for <code>exampleMethod</code>, also making it a local variable.}}
 
 ||What is the difference between a local variable and a field variable? ||

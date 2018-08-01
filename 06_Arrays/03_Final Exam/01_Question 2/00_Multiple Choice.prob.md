@@ -4,22 +4,22 @@
 (x) <pre><code class="java language-java">for (int index = 0; index &lt; varOne.length; index++){
   System.out.print(varOne[index] + " ");
 }
-</code></pre> {{correct because it constructs a for loop and only prints one value for each iteration.}}
+</code></pre> {{Correct because it constructs a for loop and only prints one value for each iteration.}}
 ( ) <pre><code class="java language-java">for (int index = 0; index &lt; varOne.size; index++){
   System.out.print(varOne[index] + " "); 
 }
-</code></pre> {{incorrect because "size" is not the right term when trying to get the length of an array.}}
+</code></pre> {{Incorrect because "size" is not the right term when trying to get the length of an array.}}
 ( ) <pre><code class="java language-java">for (int index = 0; index &lt; varOne.size(); index++){
   System.out.print(varOne[index] + " ");
 }
-</code></pre> {{incorrect because <code>size()</code> is not the right method to use when trying to get the length of an array.}}
+</code></pre> {{Incorrect because <code>size()</code> is not the right method to use when trying to get the length of an array.}}
 ( ) <pre><code class="java language-java">for (int index = 0; index &lt; varOne.length(); index++){
   System.out.print(varOne[index] + " ");
 }
-</code></pre> {{incorrect because <code>length</code> is a property of an array, not a method.}}
+</code></pre> {{Incorrect because <code>length</code> is a property of an array, not a method.}}
 ( ) <pre><code class="java language-java">for (int index = 0; index &lt; varOne.length; index++){
   System.out.print(varOne);
 }
-</code></pre> {{incorrect because it prints the entire array each time the for loop is executed.}}
+</code></pre> {{Incorrect because it prints the entire array each time the for loop is executed.}}
 
 ||"array.length" is used when determining the length of an array. ||

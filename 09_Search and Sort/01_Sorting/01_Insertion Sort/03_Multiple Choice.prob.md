@@ -17,11 +17,11 @@
 <p>Assume that <code>insertionSort</code> is called with the array {5,4,3,2,1}.
 What will the value of <code>paramOne</code> be after two passes of the outer loop (i.e., when j = 2 at the point indicated by /* End of outer loop */)? <<
 
-( ) {5, 3, 4, 2, 1} {{incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. Look at the process shown below.}}
-( ) {3, 5, 2, 3, 1} {{incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. Look at the process shown below.}}
-( ) {2, 3, 4, 5, 1} {{incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. Look at the process shown below.}}
-( ) {3, 2, 1, 4, 5} {{incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. Look at the process shown below.}}
-(x) {3, 4, 5, 2, 1} {{correct because it accurately represents what the array will be when j = 2 at the point indicated by <code>/* End of outer loop */</code>.
+( ) {5, 3, 4, 2, 1} {{Incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. Look at the process within the fourth answer choice.}}
+( ) {3, 5, 2, 3, 1} {{Incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. Look at the process within the fourth answer choice.}}
+( ) {2, 3, 4, 5, 1} {{Incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. Look at the process within the fourth answer choice.}}
+( ) {3, 2, 1, 4, 5} {{Incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. Look at the process within the fourth answer choice.}}
+(x) {3, 4, 5, 2, 1} {{Correct because it accurately represents what the array will be when j = 2 at the point indicated by <code>/* End of outer loop */</code>.
 The process is shown below:</p>
 <p>j = 1<br />
 <code>int insertItem = paramOne[j]; // int insertItem = 4</code>

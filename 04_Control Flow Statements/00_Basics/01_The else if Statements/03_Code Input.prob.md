@@ -3,7 +3,7 @@
 <li>Returns the input that is nearest to the value 10.</li>
 <li>In the event of a tie, return 0.</li>
 </ol>
-<p>Use the else-if statements when writing your response.
+<p>Use the <code>else if</code> statements when writing your response.
 For example:
 <code>closeToTen(8, 13)</code> should return 8
 <code>closeToTen(11, 8)</code> should return 11

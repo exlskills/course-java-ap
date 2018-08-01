@@ -21,15 +21,15 @@
 </code></pre>
 <p>What is printed when we call <code>exampleMethod()</code>? <<
 
-( ) False {{incorrect because only expressions that evaluate to true are executed.}}
-( ) True {{incorrect because <code>!false</code> also evaluates to true.}}
+( ) False {{Incorrect because only expressions that evaluate to true are executed.}}
+( ) True {{Incorrect because <code>!false</code> also evaluates to true.}}
 ( ) False 
-Not True {{incorrect because only expressions that evaluate to true are executed.}}
+Not True {{Incorrect because only expressions that evaluate to true are executed.}}
 (x) True
-Not False {{correct because only expressions that evaluate to true are executed, and <code>!false</code> evaluates to true.}}
+Not False {{Correct because only expressions that evaluate to true are executed, and <code>!false</code> evaluates to true.}}
 ( ) False
 True
 Not False
-Not True {{incorrect because only expressions that evaluate to true are executed.}}
+Not True {{Incorrect because only expressions that evaluate to true are executed.}}
 
 ||The if statements only execute when the value in the bracket results to <code>true</code>. ||

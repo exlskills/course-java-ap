@@ -1,7 +1,7 @@
 >>Complete the method <code>commonStartEnd</code> so that it satisfies the following condition:
 Return true if both arrays have the same first element or the same last element</p>
 <p>Assume that the length of the array is greater than or equal to 1.
-Use array.length when writing your response.
+Use <code>array.length</code> when writing your response.
 For example:
 <code>int[] varOne = {1, 2, 3};</code>
 <code>int[] varTwo = {7, 3};</code>

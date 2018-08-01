@@ -8,9 +8,9 @@
 </code></pre>
 <p>Which of the following is printed as a result of the call <code>methodOne(123456)</code>? <<
 
-( ) A. 16 {{A is incorrect because "123456" is printed. Look at the process shown below.}}
-( ) B. 56 {{B is incorrect because "123456" is printed. Look at the process shown below.}}
-(x) C. 123456 {{C is correct because it accurately represents what the recursive method above prints.
+( ) 16 {{Incorrect because "123456" is printed. Look at the process shown below.}}
+( ) 56 {{Incorrect because "123456" is printed. Look at the process shown below.}}
+(x) 123456 {{Correct because it accurately represents what the recursive method above prints.
 The process is shown below:</p>
 <p>methodOne(123456)
 <code>if ((paramOne / 10) != 0) // true (STEP 1)</code>
@@ -37,7 +37,7 @@ The process is shown below:</p>
 <code>methodOne (paramOne / 10) // not executed</code>
 <code>System.out.println(paramOne % 10); // prints "1" (STEP 11)</code></p>
 <p>Therefore, "123456" is printed after <code>methodOne(123456)</code> is executed.}}
-( ) D. 654321 {{D is incorrect because "123456" is printed. Look at the process shown above.}}
-( ) E. An infinite number of digits will be printed due to infinite recursion. {{E is incorrect because "123456" is printed. Look at the process shown above.}}
+( ) 654321 {{Incorrect because "123456" is printed. Look at the process shown above.}}
+( ) An infinite number of digits will be printed due to infinite recursion. {{Incorrect because "123456" is printed. Look at the process shown above.}}
 
 ||<code>methodOne()</code> is called a total of 5 times after the initial call. ||

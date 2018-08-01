@@ -11,4 +11,4 @@ For example:
 
 = the correct answer
 
-||How can the "==" sign be used in the if statement to compare the two parameters? ||
+||How can the "==" sign be used in the <code>if</code> statement to compare the two parameters? ||

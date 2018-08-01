@@ -11,9 +11,9 @@ System.out.println(varOne);
 </code></pre>
 <p>What is printed as a result of executing this code segment? <<
 
-( ) 2 {{incorrect because 4 is printed. Look at the process shown below.}}
-( ) 3 {{incorrect because 4 is printed. Look at the process shown below.}}
-(x) 4 {{correct because it accurately represents what the break statement does when the value of <code>varOne</code> is greater than 3.
+( ) 2 {{Incorrect because 4 is printed. Look at the process shown within the third answer choice.}}
+( ) 3 {{Incorrect because 4 is printed. Look at the process shown within the third answer choice.}}
+(x) 4 {{Correct because it accurately represents what the break statement does when the value of <code>varOne</code> is greater than 3.
 The process is shown below:
 When count = 0, 
 <code>varOne++ // varOne = 1</code>
@@ -29,7 +29,7 @@ When count = 0,
 <code>varOne &gt; 3 // true</code>
 <code>break; // exits the for loop</code></p>
 <p>Therefore, <code>varOne</code> = 4 and "4" will be printed.}}
-( ) 5 {{incorrect because 4 is printed. Look at the process shown above.}}
-( ) Nothing is printed because an error is thrown. {{incorrect because the statements above will compile and run successfully.}}
+( ) 5 {{Incorrect because 4 is printed. Look at the process shown within the third answer choice.}}
+( ) Nothing is printed because an error is thrown. {{Incorrect because the statements above will compile and run successfully.}}
 
 ||The <code>break;</code> statement causes the program to leave the for statement and jump straight to the <code>System.out.println(varOne)</code> statement. ||

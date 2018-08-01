@@ -1,5 +1,5 @@
 >>Complete the method <code>exampleMethod</code> so that it satisfies the following condition:
-Returns true if paramOne and paramTwo are both true or both false.</p>
+Returns true if <code>paramOne</code> and <code>paramTwo</code> are both true or both false.</p>
 <p>For example:
 <code>exampleMethod(true, true)</code> should return true
 <code>exampleMethod(false, false)</code> should return true

@@ -1,9 +1,9 @@
 >>Complete the method <code>weirdSum</code> so that it satisfies the following conditions:</p>
 <ol>
-<li>Returns the sum of paramOne and paramTwo</li>
+<li>Returns the sum of <code>paramOne</code> and <code>paramTwo</code></li>
 <li>If the sum is between 10 to 19 inclusive, return 20.</li>
 </ol>
-<p>Use the AND operator when writing your response.
+<p>Use the "AND" operator when writing your response.
 For example:
 <code>weirdSum(3, 4)</code> should return 7
 <code>weirdSum(9, 4)</code> should return 20

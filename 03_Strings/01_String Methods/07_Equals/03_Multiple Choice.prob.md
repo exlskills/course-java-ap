@@ -14,4 +14,4 @@ III. <code>varOne == varThree</code> <<
 ( ) II and III {{Incorrect because I will also evaluate to true because <code>varOne</code> and <code>varThree</code> are both "abc".}}
 (x) I, II and III {{Correct because I, II, and III all share the same reference and hold the same <code>String</code> value.}}
 
-||"==" compares the reference while ".equals()" compares the values inside the <code>String</code>. ||
+||"==" compares the reference while <code>.equals()</code> compares the values inside the <code>String</code>. ||

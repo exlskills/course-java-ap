@@ -6,10 +6,10 @@ for (double varTwo: varOne){
 </code></pre>
 <p>What is printed as a result of executing this code segment? <<
 
-( ) 2.5, 3, 4 {{incorrect because commas are not in the print statement.}}
-(x) 2.5 3.0 4.0 {{correct because all the values printed are doubles that are separated by spaces.}}
-( ) 2.5 3 4 {{incorrect because some of the values are not represented as a <code>double</code>.}}
-( ) 2.5, 3.0 4.0 {{incorrect because because commas are not in the print statement.}}
-( ) An error would occur. {{incorrect because the for-each loop works properly and prints the elements of the array accurately.}}
+( ) 2.5, 3, 4 {{Incorrect because commas are not in the print statement.}}
+(x) 2.5 3.0 4.0 {{Correct because all the values printed are doubles that are separated by spaces.}}
+( ) 2.5 3 4 {{Incorrect because some of the values are not represented as a <code>double</code>.}}
+( ) 2.5, 3.0 4.0 {{Incorrect because because commas are not in the print statement.}}
+( ) An error would occur. {{Incorrect because the for-each loop works properly and prints the elements of the array accurately.}}
 
 ||<code>varOne</code> is an array of doubles, not integers. ||

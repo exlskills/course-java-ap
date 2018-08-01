@@ -19,10 +19,10 @@ switch (varOne){
 </code></pre>
 <p>What is printed as a result of executing this code segment? <<
 
-(x) a {{correct because <code>case 'a'</code> does not have a <code>break;</code> statement, so the statements under <code>case 'A'</code> will be executed.}}
-( ) aa {{incorrect because the <code>break;</code> statement under <code>case 'A'</code> will cause the program to exit the switch statement.}}
-( ) ab {{incorrect because the value of <code>varOne</code> is always 'a' and will not change to 'b'}}
-( ) abc {{incorrect because the value of <code>varOne</code> is always 'a' and will not change to 'b' or 'c'}}
-( ) abcd {{incorrect because the value of <code>varOne</code> is always 'a' and will not change to 'b', 'c' or 'd'.}}
+(x) a {{Correct because <code>case 'a'</code> does not have a <code>break;</code> statement, so the statements under <code>case 'A'</code> will be executed.}}
+( ) aa {{Incorrect because the <code>break;</code> statement under <code>case 'A'</code> will cause the program to exit the switch statement.}}
+( ) ab {{Incorrect because the value of <code>varOne</code> is always 'a' and will not change to 'b'}}
+( ) abc {{Incorrect because the value of <code>varOne</code> is always 'a' and will not change to 'b' or 'c'}}
+( ) abcd {{Incorrect because the value of <code>varOne</code> is always 'a' and will not change to 'b', 'c' or 'd'.}}
 
 ||Where is the first <code>break;</code> statement in the switch statement located? ||
