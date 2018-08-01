@@ -1,4 +1,4 @@
-package exlcode;
+package exlhub;
 
 public class SuperTestTwo extends SuperTestOne {
 

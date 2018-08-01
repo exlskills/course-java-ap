@@ -1,4 +1,4 @@
-package exlcode;
+package exlhub;
 
 public class InterfaceTestThree implements InterfaceTestOne, InterfaceTestTwo {
 

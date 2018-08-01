@@ -1,4 +1,4 @@
-package exlcode;
+package exlhub;
 
 public class Iteration1DExample {
 

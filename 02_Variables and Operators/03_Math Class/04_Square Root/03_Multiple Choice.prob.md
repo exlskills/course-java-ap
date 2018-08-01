@@ -1,8 +1,8 @@
 >><code>Math.sqrt(16)</code> returns <<
 
-(x) 4 {{correct because the square root of the integer 16 is 4.}}
+( ) 4 {{Incorrect because the square root method will return a <code>double</code> value even if the input is an <code>int</code>.}}
 ( ) -4 {{incorrect because the square root method only returns the positive square root value.}}
-( ) 4.0 {{incorrect because the square root method will return an <code>int</code> value if the input is an <code>int</code> value.}}
+(x) 4.0 {{Correct because the square root of the integer 16 is 4.0 as the square root method will return a <code>double</code> value even if the input is an <code>int</code>.}}
 ( ) -4.0 {{incorrect because the square root method only returns the positive square root value.}}
 ( ) 4, -4 {{incorrect because the square root method only returns the positive square root value.}}
 
