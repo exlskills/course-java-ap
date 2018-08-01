@@ -1,0 +1,9 @@
+>>A bookstore is working on an on-line ordering system. For each type of published material (books, movies, audio tapes) they need to track the id, title, author(s), date published, and price. Which of the following would be the best design? <<
+
+( ) Create one class <code>PublishedMaterial</code> that holds all the information. {{incorrect because it will complicate the process of retrieving different materials and would increase the amount of unnecessary code.}}
+( ) Create three classes <code>Book</code>, <code>Movie</code>, and <code>AudioTape</code> that holds the necessary information in each individual class. {{incorrect because it will increase the amount of unnecessary code and make it more challenger to debug the program.}}
+( ) Create one class <code>BookStore</code> that holds all the information. {{incorrect because one single class <code>BookStore</code> lack other classes such as <code>PublishedMaterial</code> and lead to unnecessary code and complications.}}
+(x) Create the class <code>PublishedMaterial</code> and have 3 other classes <code>Book</code>, <code>Movie</code>, and <code>AudioTape</code> inherit fields such as id, title, authors(s), etc. {{correct because <code>Book</code>, <code>Movie</code>, and <code>AudioTape</code> have common fields and having a common superclass <code>PublishedMaterial</code> is the most efficient.}}
+( ) Create separate classes <code>PublishedMaterial</code>, <code>Books</code>, <code>Movies</code>, <code>AudioTape</code>, <code>Title</code>, <code>Price</code>, <code>ID</code>, <code>Authors</code>, and <code>DatePublished</code>. {{incorrect because it creates unnecessary classes such as <code>Title</code>, <code>Price</code> that only need to be simple variables, not a class.}}
+
+||Creating a class for "PublishedMaterial" is needed for a good design. ||

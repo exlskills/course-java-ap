@@ -1,0 +1,6 @@
+api_version: 1
+environment: java_default_free
+src_path: 01_.repl/src
+test_path: 01_.repl/test
+display:
+  height: 500px
