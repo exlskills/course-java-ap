@@ -1,9 +1,6 @@
->>Replace the for loop below with a for-each loop.</p>
+>>Use a for-each loop to calculate the sum of all the elements in <code>varOne</code>.</p>
 <pre><code class="java language-java">int[] varOne = {1, 2, 3, 4, 5, 6};
 int sum = 0;
-for (int index = 0; index &lt; varOne.length; index++){
-  sum += varOne[index];
-}
 return sum;
 </code></pre> <<
 
