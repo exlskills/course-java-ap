@@ -1,4 +1,4 @@
->>Consider the following class declarations:</p>
+>>Consider the following class declarations:
 <pre><code class="java language-java">public class Main{
   public static void main (String[] args){
     ExampleClass exampleClassOne = new ExampleClass();
@@ -21,7 +21,7 @@
   }
 }
 </code></pre>
-<p>Which statement in the <code>Main</code> class will cause an error? <<
+<p>Which statement in the <code>Main</code> class will cause an error?</p><<
 
 ( ) <code>System.out.println(exampleClassOne.varOne);</code> {{Incorrect because <code>varOne</code> is declared as a <code>public</code> variable in <code>ExampleClass</code>.}}
 (x) <code>System.out.println(exampleClassOne.varTwo);</code> {{Correct because <code>varTwo</code> is declared as a <code>private</code> variable in <code>ExampleClass</code>.}}

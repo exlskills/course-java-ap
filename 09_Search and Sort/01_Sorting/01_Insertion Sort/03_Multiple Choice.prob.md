@@ -1,4 +1,4 @@
->>Consider the following insertion sort method:</p>
+>>Consider the following insertion sort method:
 <pre><code class="java language-java">public void insertionSort(int[] paramOne){
   for (int j = 1; j &lt; paramOne.length; j++)
   {
@@ -15,14 +15,14 @@
 }
 </code></pre>
 <p>Assume that <code>insertionSort</code> is called with the array {5,4,3,2,1}.
-What will the value of <code>paramOne</code> be after two passes of the outer loop (i.e., when j = 2 at the point indicated by /* End of outer loop */)? <<
+What will the value of <code>paramOne</code> be after two passes of the outer loop (i.e., when j = 2 at the point indicated by /* End of outer loop */)?</p><<
 
 ( ) {5, 3, 4, 2, 1} {{Incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. Look at the process within the fourth answer choice.}}
 ( ) {3, 5, 2, 3, 1} {{Incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. Look at the process within the fourth answer choice.}}
 ( ) {2, 3, 4, 5, 1} {{Incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. Look at the process within the fourth answer choice.}}
 ( ) {3, 2, 1, 4, 5} {{Incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. Look at the process within the fourth answer choice.}}
 (x) {3, 4, 5, 2, 1} {{Correct because it accurately represents what the array will be when j = 2 at the point indicated by <code>/* End of outer loop */</code>.
-The process is shown below:</p>
+The process is shown below:
 <p>j = 1<br />
 <code>int insertItem = paramOne[j]; // int insertItem = 4</code>
 <code>int k = j - 1; // int k = 0</code>
@@ -41,6 +41,6 @@ The process is shown below:</p>
 <code>paramOne[k + 1] = insertItem; // paramOne[0] = 3</code>
 <code>/* End of outer loop */</code><br />
 <code>// paramOne = {3,4,5,2,1}</code></p>
-<p>Therefore, <code>paramOne</code> will be {3, 4, 5, 2, 1} when j = 2 at <code>/* End of outer loop */</code>}}
+<p>Therefore, <code>paramOne</code> will be {3, 4, 5, 2, 1} when j = 2 at <code>/* End of outer loop */</code></p>}}
 
 ||Insertion sort compares two values to ensure that the smaller value comes before the larger one. ||

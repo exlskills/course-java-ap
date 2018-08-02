@@ -1,4 +1,4 @@
->>Consider the following class declarations:</p>
+>>Consider the following class declarations:
 <pre><code class="java language-java">public class Vehicle
 {
   private int varOne;
@@ -17,7 +17,7 @@
   }
 }
 </code></pre>
-<p>Which of the following statements will NOT compile? <<
+<p>Which of the following statements will NOT compile?</p><<
 
 ( ) <code>Vehicle vehicleOne = new Vehicle();</code> {{Incorrect because <code>Vehicle</code> has a constructor that takes in no parameters.}}
 ( ) <code>Vehicle vehicleTwo = new Vehicle(5);</code> {{Incorrect because <code>Vehicle</code> also has a constructor that takes an integer as a parameter.}}

@@ -1,4 +1,4 @@
->><strong><em><em></em></strong></em>__ is the software that interprets Java bytecode. <<
+>>_____ is the software that interprets Java bytecode. <<
 
 ( ) Java compiler {{Incorrect because the Java compiler is used to translate the source code into Java bytecode.}}
 ( ) Java debugger {{Incorrect because the Java debugger is used to find and fix bugs in Java programs.}}

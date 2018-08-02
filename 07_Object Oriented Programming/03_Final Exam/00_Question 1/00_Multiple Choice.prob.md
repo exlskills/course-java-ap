@@ -1,4 +1,4 @@
->>Consider the following class declarations:</p>
+>>Consider the following class declarations:
 <pre><code class="java language-java">public interface Greeting{
   public void printGreeting();
 }
@@ -9,7 +9,7 @@
   }
 }
 </code></pre>
-<p>Why does the code above cause a compile-time error? <<
+<p>Why does the code above cause a compile-time error?</p><<
 
 ( ) <code>PersonGreeting</code> should extend <code>Greeting</code>, not implement it. {{Incorrect because the Java reserved word <code>implements</code> is used between a class and an interface.}}
 ( ) The <code>printGreeting</code> method doesn't have any statements. {{Incorrect because <code>printGreeting()</code> is a method inside a interface and does not require a method body.}}

@@ -1,4 +1,4 @@
->>Consider the following code segment:</p>
+>>Consider the following code segment:
 <pre><code class="java language-java">ExampleClass exampleClassOne = new ExampleClass();
 ExampleClass exampleClassTwo = new ExampleClass();
 ExampleClass exampleClassThree = exampleClassTwo;

@@ -1,4 +1,4 @@
->>Java was originally developed by <strong><em><em></em></strong></em>__. <<
+>>Java was originally developed by _____. <<
 
 ( ) Oracle {{Incorrect because Oracle did not develop Java.}}
 ( ) Microsoft {{Incorrect because Microsoft did not develop Java.}}

@@ -1,4 +1,4 @@
->>Java is an example of <strong><em><em></em></strong></em>__ programming. <<
+>>Java is an example of ____ programming. <<
 
 ( ) functional {{Incorrect because Java is an object-oriented language. An example of a functional programming language would be Python.}}
 ( ) procedural {{Incorrect because Java is an object-oriented language. An example of a procedural programming language would be Fortran.}}

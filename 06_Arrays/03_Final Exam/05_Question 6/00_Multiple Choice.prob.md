@@ -1,10 +1,10 @@
->>Consider the code segment below:</p>
+>>Consider the code segment below:
 <pre><code class="java language-java">double[] varOne = {2.5, 3, 4};
 for (double varTwo: varOne){
   System.out.print(varTwo + " ");
 }
 </code></pre>
-<p>What is printed as a result of executing this code segment? <<
+<p>What is printed as a result of executing this code segment?</p> <<
 
 ( ) 2.5, 3, 4 {{Incorrect because commas are not in the print statement.}}
 (x) 2.5 3.0 4.0 {{Correct because all the values printed are doubles that are separated by spaces.}}

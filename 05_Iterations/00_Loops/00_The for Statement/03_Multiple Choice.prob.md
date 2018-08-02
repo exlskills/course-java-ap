@@ -1,10 +1,10 @@
->>Consider the following code segment:</p>
+>>Consider the following code segment:
 <pre><code class="java language-java">String varOne = "abcdef";
 for (int count = 0; count &lt; varOne.length()-1; count++){
   System.out.print(varOne.substring(count, count+2));
 }
 </code></pre>
-<p>What is printed as a result of executing this code segment? <<
+<p>What is printed as a result of executing this code segment?</p><<
 
 ( ) abcdef {{Incorrect because "abbccddeef" is printed. Look at the process shown within the fourth answer choice.}}
 ( ) aabbccddeeff {{Incorrect because "abbccddeef" is printed. Look at the process shown within the fourth answer choice.}}

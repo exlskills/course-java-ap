@@ -1,9 +1,9 @@
->>Consider the following code:</p>
+>>Consider the following code:
 <pre><code class="java language-java">String varOne = "Welcome to Java";
 Object varTwo = varOne;
 String varThree = (String)varTwo;
 </code></pre>
-<p>Which of the following statements is true? <<
+<p>Which of the following statements is true?</p><<
 
 ( ) When assigning <code>varOne</code> to <code>varTwo</code> in <code>Object varTwo = varOne</code>, a new object is created. {{Incorrect because it changes the reference of <code>varTwo</code> to <code>varOne</code> and does not create a new object.}}
 (x) <code>varOne</code>, <code>varTwo</code>, and <code>varThree</code> reference the same String object. {{Correct because <code>varTwo</code> and <code>varThree</code> both refer to the <code>String</code> "Welcome to Java".}}

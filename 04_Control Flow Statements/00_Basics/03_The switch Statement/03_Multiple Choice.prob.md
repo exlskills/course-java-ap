@@ -1,4 +1,4 @@
->>What is the value of <code>varTwo</code> after the following switch statement is executed?</p>
+>>What is the value of <code>varTwo</code> after the following switch statement is executed?
 <pre><code class="java language-java">int varOne = 3;
 int varTwo = 4;
 switch (varOne+3){
@@ -9,7 +9,7 @@ switch (varOne+3){
   default:
     varTwo += 1;
 }
-</code></pre> <<
+</code></pre><<
 
 ( ) 1 {{Incorrect because the statement <code>varTwo += 1</code> is also executed because the <code>break;</code> statement does not exist.}}
 (x) 2 {{Correct because after executing the statement <code>varTwo = 0;</code>, the program continues

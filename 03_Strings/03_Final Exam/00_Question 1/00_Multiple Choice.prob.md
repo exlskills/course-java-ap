@@ -1,8 +1,8 @@
->>Consider the following code segment:</p>
+>>Consider the following code segment:
 <pre><code class="java language-java">String varOne = "Hello World!";
 System.out.println(varOne.toUpperCase());
 </code></pre>
-<p>What is printed as a result of executing this code segment? <<
+<p>What is printed as a result of executing this code segment?</p><<
 
 (x) HELLO WORLD! {{Correct because all the letters are converted to upper case.}}
 ( ) hello world! {{Incorrect because all the letters are converted to lower case.}}

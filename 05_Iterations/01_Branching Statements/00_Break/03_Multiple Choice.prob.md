@@ -1,4 +1,4 @@
->>Consider the following code segment:</p>
+>>Consider the following code segment:
 <pre><code class="java language-java">int varOne = 0;
 for (int count = 0; count &lt; 20; count++)
 {
@@ -9,13 +9,13 @@ for (int count = 0; count &lt; 20; count++)
 }
 System.out.println(varOne);
 </code></pre>
-<p>What is printed as a result of executing this code segment? <<
+<p>What is printed as a result of executing this code segment?</p><<
 
 ( ) 2 {{Incorrect because 4 is printed. Look at the process shown within the third answer choice.}}
 ( ) 3 {{Incorrect because 4 is printed. Look at the process shown within the third answer choice.}}
 (x) 4 {{Correct because it accurately represents what the break statement does when the value of <code>varOne</code> is greater than 3.
 The process is shown below:
-When count = 0, 
+<p>When count = 0, 
 <code>varOne++ // varOne = 1</code>
 <code>varOne &gt; 3 // false</code></p>
 <p>When count = 1, 
@@ -28,7 +28,7 @@ When count = 0,
 <code>varOne++ // varOne = 4</code>
 <code>varOne &gt; 3 // true</code>
 <code>break; // exits the for loop</code></p>
-<p>Therefore, <code>varOne</code> = 4 and "4" will be printed.}}
+<p>Therefore, <code>varOne</code> = 4 and "4" will be printed.</p>}}
 ( ) 5 {{Incorrect because 4 is printed. Look at the process shown within the third answer choice.}}
 ( ) Nothing is printed because an error is thrown. {{Incorrect because the statements above will compile and run successfully.}}
 

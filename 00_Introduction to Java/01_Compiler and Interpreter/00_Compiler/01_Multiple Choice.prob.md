@@ -1,4 +1,4 @@
->>Java compiler translates Java source code into <strong><em><em></em></strong></em>__. <<
+>>Java compiler translates Java source code into _____. <<
 
 ( ) Machine code {{Incorrect because the Java bytecode is not the machine language of any existing computers.}}
 (x) Java bytecode {{Correct because the Java compiler translates Java programs into a language called Java bytecode.}}

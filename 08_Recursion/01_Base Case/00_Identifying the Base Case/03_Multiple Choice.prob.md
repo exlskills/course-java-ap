@@ -1,4 +1,4 @@
->>Consider the following code segment:</p>
+>>Consider the following code segment:
 <pre><code class="java language-java">private int calculate (int paramOne){
   if (paramOne &lt;= 1){
     return 1;
@@ -7,12 +7,12 @@
   }
 }
 </code></pre>
-<p>Which of the following is printed as a result of the call <code>calculate(5)</code>? <<
+<p>Which of the following is printed as a result of the call <code>calculate(5)</code>?</p><<
 
 ( ) 1 {{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. Look at the process shown within the third answer choice.}}
 ( ) 10{{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. Look at the process shown within the third answer choice.}}
 (x) 15 {{Correct because it accurately represents what the recursive method above prints.
-The process is shown below:</p>
+The process is shown below:
 <p>calculate(5)
 <code>if (paramOne &lt;= 1) // false (STEP 1)</code>
 <code>return paramOne * calculate(paramOne - 2); // returns 5 * calculate(3) (STEP 2) and (STEP 8)</code></p>
@@ -22,7 +22,7 @@ The process is shown below:</p>
 <p>calculate(1)
 <code>if (paramOne &lt;= 1) // true (STEP 5)</code>
 <code>return 1; // returns 1, go back to STEP 4 (STEP 6)</code></p>
-<p>Therefore, "15" is printed after <code>calculate(5)</code> is executed.}}
+<p>Therefore, "15" is printed after <code>calculate(5)</code> is executed.</p>}}
 ( ) 25{{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. Look at the process shown within the third answer choice.}}
 ( ) 3125{{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. Look at the process shown within the third answer choice.}}
 

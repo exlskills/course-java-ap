@@ -1,4 +1,4 @@
->>Which variables in the following code segment are local variables?</p>
+>>Which variables in the following code segment are local variables?
 <pre><code class="java language-java">public class TestClass()
 {
   int varOne = 100;

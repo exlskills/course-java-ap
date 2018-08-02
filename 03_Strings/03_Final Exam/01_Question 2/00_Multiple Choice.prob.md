@@ -1,4 +1,4 @@
->>Consider the following code:</p>
+>>Consider the following code:
 <pre><code class="java language-java">String varOne = new String("Hi There");
 String varTwo = new String("Hi There");
 String varThree = varOne;
@@ -7,7 +7,7 @@ String varThree = varOne;
 <p>I. <code>varOne == varTwo</code>
 II. <code>varOne.equals(varTwo)</code>
 III. <code>varOne == varThree</code>
-IV. <code>varTwo.equals(varThree)</code> <<
+IV. <code>varTwo.equals(varThree)</code></p><<
 
 ( ) II {{Incorrect because III and IV will also evaluate to true because all three strings hold the value "Hi There".}}
 ( ) IV {{Incorrect because II and III will also evaluate to true because all three strings hold the value "Hi There".}}

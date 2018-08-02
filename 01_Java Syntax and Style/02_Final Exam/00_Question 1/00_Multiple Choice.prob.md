@@ -1,4 +1,4 @@
->>The program suffers a syntax error if the <strong><em><em></em></strong></em>__. <<
+>>The program suffers a syntax error if the ____. <<
 
 ( ) program has an empty main method {{Incorrect because this is not an error, just an empty program that does not do anything.}}
 (x) program does not compile {{Correct because a syntax error occurs when the program tries to compile.}}

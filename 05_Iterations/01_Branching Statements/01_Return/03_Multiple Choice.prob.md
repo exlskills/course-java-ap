@@ -1,4 +1,4 @@
->>Fill in the blank below:</p>
+>>Fill in the blank below:
 <pre><code class="java language-java">public static ___ getGrade(double score) {
   if (score &gt;= 90.0)
     return 'A';
@@ -12,7 +12,7 @@
     return 'F';
   }
 }
-</code></pre> <<
+</code></pre><<
 
 ( ) <code>int</code> {{Incorrect because the method returns a <code>char</code> value.}}
 (x) <code>char</code> {{Correct because <code>return 'A'</code> clearly shows that the return type of this method is <code>char</code> value.}}

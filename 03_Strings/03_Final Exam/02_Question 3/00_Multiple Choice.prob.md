@@ -1,9 +1,9 @@
->>Given the following code segment:</p>
+>>Given the following code segment:
 <pre><code class="java language-java">String varOne = "ab";
 String varTwo = varOne;
 varOne = varOne + varTwo + "c";
 </code></pre>
-<p>Which of the following is in the string referenced by <code>varOne</code>? <<
+<p>Which of the following is in the string referenced by <code>varOne</code>?</p><<
 
 ( ) abc {{Incorrect because <code>varOne</code> will equal "ab" plus another "ab" plus "c" at the end.}}
 (x) ababc {{Correct because <code>varOne</code> contains the original value, plus itself, plus "c".}}

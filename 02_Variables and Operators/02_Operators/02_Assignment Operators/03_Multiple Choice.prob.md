@@ -1,8 +1,8 @@
->>What is the new value of <code>varOne</code> after the following code is executed?</p>
+>>What is the new value of <code>varOne</code> after the following code is executed?
 <p><code>int varOne = 12;</code>
 <code>varOne += 5;</code>
 <code>varOne -= 10;</code>
-<code>varOne = 12;</code> <<
+<code>varOne = 12;</code></p><<
 
 ( ) 7 {{Incorrect because <code>varOne</code> would equal 12 after the statements are executed. Look at the process shown within the third answer choice below.}}
 ( ) 19{{Incorrect because <code>varOne</code> would equal 12 after the statements are executed. Look at the process shown within the third answer choice.}}

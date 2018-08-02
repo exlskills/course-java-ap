@@ -1,4 +1,4 @@
->>Which of the following is a valid identifier for a constant variable? <<
+>>Which of the following is a valid identifier for a constant variable?<<
 
 ( ) <code>public final int constantVar = 10;</code> {{Incorrect because this is the standard way to declare other variables.}}
 ( ) <code>public final int CONSTANTVAR = 30;</code> {{Incorrect because it is lacking an underscore.}}

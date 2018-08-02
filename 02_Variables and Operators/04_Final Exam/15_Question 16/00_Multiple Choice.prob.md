@@ -1,4 +1,4 @@
->>The <strong><em><em></em></strong></em>__ method returns the square root of <code>paramOne</code>. <<
+>>The _____ method returns the square root of <code>paramOne</code>. <<
 
 (x) <code>Math.sqrt(paramOne)</code> {{Correct because <code>Math.sqrt(paramOne)</code> is the correct syntax for the square root method.}}
 ( ) <code>Math.sqroot(paramOne)</code> {{Incorrect because the answer choice is not the correct syntax for the square root method.}}

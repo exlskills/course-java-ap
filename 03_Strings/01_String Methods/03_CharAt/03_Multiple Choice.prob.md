@@ -1,8 +1,8 @@
->>Consider the following code segment:</p>
+>>Consider the following code segment:
 <pre><code class="java language-java">String varOne = "Hello World!";
 System.out.println(varOne.charAt(8));
 </code></pre>
-<p>What is printed as a result of executing this code segment? <<
+<p>What is printed as a result of executing this code segment?</p><<
 
 ( ) o {{Incorrect because 'o' is the 7th index of "Hello World!".}}
 (x) r {{Correct because the character 'r' exists in the 8th index of "Hello World!".}}

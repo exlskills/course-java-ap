@@ -1,10 +1,10 @@
->>Consider the following code segment:</p>
+>>Consider the following code segment:
 <pre><code class="java language-java">int varOne = 0;
 int varTwo = 1;
 varOne = varTwo++;
 System.out.println("varOne: " + varOne + " varTwo: " + varTwo)
 </code></pre>
-<p>What is printed as a result of executing this code segment? <<
+<p>What is printed as a result of executing this code segment?</p><<
 
 ( ) varOne: 0 varTwo: 0 {{Incorrect because there are expressions or operators that decreases the value of <code>varOne</code> or <code>varTwo</code>.}}
 (x) varOne: 1 varTwo: 2 {{Correct because <code>varTwo++</code> returns the current value of <code>varTwo</code> before performing the increment operation. Therefore, <code>varOne</code> is assigned to the original value of <code>varTwo</code> before <code>varTwo</code> increases by 1.}}

@@ -1,4 +1,4 @@
->>Consider the following code segment:</p>
+>>Consider the following code segment:
 <pre><code class="java language-java">char varOne = 'a';
 switch (varOne){
   case 'a':
@@ -17,7 +17,7 @@ switch (varOne){
   case 'D':
     System.out.print(varOne);
 </code></pre>
-<p>What is printed as a result of executing this code segment? <<
+<p>What is printed as a result of executing this code segment?</p> <<
 
 (x) a {{Correct because <code>case 'a'</code> does not have a <code>break;</code> statement, so the statements under <code>case 'A'</code> will be executed.}}
 ( ) aa {{Incorrect because the <code>break;</code> statement under <code>case 'A'</code> will cause the program to exit the switch statement.}}

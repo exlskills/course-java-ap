@@ -1,4 +1,4 @@
->>Consider the following code segments:</p>
+>>Consider the following code segments:
 <p>I.</p>
 <pre><code class="java language-java">int varOne = 1;
 while (varOne &lt; 20){
@@ -21,8 +21,7 @@ while (varOne &lt; 20){
 {
   System.out.print(varOne + " ");
 }</code></pre>
-<p>Which of the code segments above will produce the following output?
-1 4 7 10 13 16 19 <<
+<p>Which of the code segments above will produce the following output? 1 4 7 10 13 16 19 </p><<
 
 ( ) I only {{Incorrect because II also prints the correct output as it prints out every number that has a remainder of 1 when divided by 3.}}
 ( ) II only {{Incorrect because I also prints the correct output as it prints out every number that has a remainder of 1 when divided by 3.}}

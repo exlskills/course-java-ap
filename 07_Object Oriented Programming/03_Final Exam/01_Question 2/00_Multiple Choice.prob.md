@@ -1,4 +1,4 @@
->>Consider the following class declarations:</p>
+>>Consider the following class declarations:
 <pre><code class="java language-java">public class Earth {
   // methods not shown
 }
@@ -20,7 +20,7 @@
 <code>Land varTwo;</code>
 <code>Ocean varThree;</code>
 <code>Countries varFour;</code></p>
-<p>Which of the following code segments will not result in a compile time error? <<
+<p>Which of the following code segments will not result in a compile time error?</p><<
 
 ( ) <code>varTwo = new Ocean();</code> {{Incorrect because <code>Ocean</code> is a subclass of <code>Earth</code>, so a reference to <code>Ocean</code> cannot be assigned to <code>Land</code> object .}}
 ( ) <code>varThree = new Land();</code> {{Incorrect because <code>Land</code> is a subclass of <code>Earth</code>, so a reference to <code>Land</code> cannot be assigned to <code>Ocean</code> object.}}

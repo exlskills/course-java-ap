@@ -1,4 +1,4 @@
->>Consider the following code segment:</p>
+>>Consider the following code segment:
 <pre><code class="java language-java">String varOne = "abc";
 String varTwo = varOne;
 String varThree = varTwo;
@@ -6,7 +6,7 @@ String varThree = varTwo;
 <p>After this code is executed, which of the following statements will evaluate to true?</p>
 <p>I.   <code>varOne.equals(varThree)</code>
 II.  <code>varOne == varTwo</code>
-III. <code>varOne == varThree</code> <<
+III. <code>varOne == varThree</code> </p><<
 
 ( ) I {{Incorrect because II will also evaluate to true because all three Strings share the same reference as <code>varOne</code>.}}
 ( ) II {{Incorrect because III will also evaluate to true because all three Strings share the same reference as <code>varOne</code>.}}

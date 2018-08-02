@@ -1,4 +1,4 @@
->>Consider the following method:</p>
+>>Consider the following method:
 <pre><code class="java language-java">public static void exampleMethod()
 {
   if(false)
@@ -19,7 +19,7 @@
   }
 }
 </code></pre>
-<p>What is printed when we call <code>exampleMethod()</code>? <<
+<p>What is printed when we call <code>exampleMethod()</code>?</p><<
 
 ( ) False {{Incorrect because only expressions that evaluate to true are executed.}}
 ( ) True {{Incorrect because <code>!false</code> also evaluates to true.}}

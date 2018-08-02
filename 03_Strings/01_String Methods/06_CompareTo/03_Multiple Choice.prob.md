@@ -1,10 +1,9 @@
->>Consider the following code segment:</p>
+>>Consider the following code segment:
 <pre><code class="java language-java">String varOne = "Hello World!";
 String varTwo = "Java";
 System.out.println(varOne.compareTo(varTwo));
 </code></pre>
-<p>What is printed as a result of executing this code segment?
- <<
+<p>What is printed as a result of executing this code segment?</p><<
 
 ( ) 2 {{Incorrect because 'H' comes before 'J', so the answer should be a negative value.}}
 (x) -2 {{Correct because compares the first letter of "Hello World" to the first letter of "Java". 

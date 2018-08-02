@@ -1,4 +1,4 @@
->>The program suffers a run-time error if the <strong><em><em></em></strong></em>__. <<
+>>The program suffers a run-time error if the _____. <<
 
 ( ) program does not compile {{Incorrect because run-time errors occur after the program compiles.}}
 ( ) program has an empty main method {{Incorrect because this is not an error, just an empty program that does not do anything.}}

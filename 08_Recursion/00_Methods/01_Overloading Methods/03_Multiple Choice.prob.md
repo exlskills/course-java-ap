@@ -1,4 +1,4 @@
->>Consider the following code segment:</p>
+>>Consider the following code segment:
 <pre><code class="java language-java">public class ExampleClass{
   public void calculateNum(int paramOne){
     /* implementations not shown */

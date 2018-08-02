@@ -1,4 +1,4 @@
->>The program suffers a logic error if the <strong><em><em></em></strong></em>__. <<
+>>The program suffers a logic error if the _____. <<
 
 (x) program compiles but it produces incorrect results {{Correct because a logic error occurs when the program runs but produces the incorrect results.}}
 ( ) program does not compile {{Incorrect because logic errors occur after the program compiles.}}

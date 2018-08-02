@@ -1,8 +1,8 @@
->>Consider the following code segment:</p>
+>>Consider the following code segment:
 <pre><code class="java language-java">int[][] varOne = {{1, 2, 3, 6}, {5, 8, 9, 10}, {7, 6, 7, 8}};
 System.out.println(varOne[1].length);
 </code></pre>
-<p>What is printed as a result of executing this code segment? <<
+<p>What is printed as a result of executing this code segment?</p><<
 
 ( ) 1 {{Incorrect because it returns the value of varOne[0][0].}}
 ( ) 3{{Incorrect because it returns the length of the row in <code>varOne</code>.}}
