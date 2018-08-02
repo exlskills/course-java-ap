@@ -1,10 +1,10 @@
 >>Complete the method <code>greeting</code> so that it satisfies the following condition:
-Return a greeting in the form "Hello (name)!"</p>
+Return a greeting in the form "Hello (name)!"
 <p>Use <code>String</code> concatenation when writing your response.
 For example:
 <code>greeting("Bob")</code> should return "Hello Bob!"
 <code>greeting("Alice")</code> should return "Hello Alice!"
-<code>greeting("X")</code> should return "Hello X!" <<
+<code>greeting("X")</code> should return "Hello X!" </p><<
 
 = the correct answer
 

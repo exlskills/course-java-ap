@@ -1,5 +1,5 @@
 >>Complete the method <code>firstOrLastSix</code> so that it satisfies the following condition:
-Return true if 6 appears as either the first or last element in the array</p>
+Return true if 6 appears as either the first or last element in the array
 <p>Assume that the length of the array is greater than or equal to 1.
 Use <code>array.length</code> when writing your response.
 For example:
@@ -8,7 +8,7 @@ For example:
 <code>int[] varThree = {13, 6, 1};</code>
 <code>firstOrLastSix(varOne)</code> should return true
 <code>firstOrLastSix(varTwo)</code> should return true
-<code>firstOrLastSix(varThree)</code> should return false <<
+<code>firstOrLastSix(varThree)</code> should return false </p><<
 
 = the correct answer
 

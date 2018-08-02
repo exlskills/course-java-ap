@@ -1,4 +1,4 @@
->>Complete the method <code>weirdSum</code> so that it satisfies the following conditions:</p>
+>>Complete the method <code>weirdSum</code> so that it satisfies the following conditions:
 <ol>
 <li>Returns the sum of <code>paramOne</code> and <code>paramTwo</code></li>
 <li>If the sum is between 10 to 19 inclusive, return 20.</li>
@@ -7,7 +7,7 @@
 For example:
 <code>weirdSum(3, 4)</code> should return 7
 <code>weirdSum(9, 4)</code> should return 20
-<code>weirdSum(10, 11)</code> should return 21 <<
+<code>weirdSum(10, 11)</code> should return 21 </p><<
 
 = the correct answer
 

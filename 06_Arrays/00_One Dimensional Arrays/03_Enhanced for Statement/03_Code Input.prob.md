@@ -1,8 +1,4 @@
->>Use a for-each loop to calculate the sum of all the elements in <code>paramOne</code>.</p>
-<pre><code class="java language-java">int[] varOne = {1, 2, 3, 4, 5, 6};
-int sum = 0;
-return sum;
-</code></pre> <<
+>>Use a for-each loop to calculate the sum of all the elements in <code>paramOne</code>.<<
 
 = the correct answer
 

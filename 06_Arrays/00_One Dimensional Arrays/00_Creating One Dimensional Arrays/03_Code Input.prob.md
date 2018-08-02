@@ -1,4 +1,4 @@
->>Complete the method <code>compareArr</code> so that it satisfies the following conditions:</p>
+>>Complete the method <code>compareArr</code> so that it satisfies the following conditions:
 <ol>
 <li>Return the array with the larger sum</li>
 <li>In the event of a tie, return the first array in the parameter</li>
@@ -10,7 +10,7 @@
 <code>compareArr(varOne, varTwo)</code> should return <code>varTwo</code>
 <code>compareArr(varTwo, varOne)</code> should return <code>varTwo</code>
 <code>compareArr(varThree, varOne)</code> should return <code>varThree</code></p>
-<p>The length of the array will always be two. <<
+<p>The length of the array will always be two. </p><<
 
 = the correct answer
 

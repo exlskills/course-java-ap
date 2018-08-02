@@ -1,4 +1,4 @@
->>Complete the method <code>numberSum</code> so that it satisfies the following conditions:</p>
+>>Complete the method <code>numberSum</code> so that it satisfies the following conditions:
 <ol>
 <li>Returns the sum of two integer values</li>
 <li>If the two values are the same, return twice their sum.</li>
@@ -7,7 +7,7 @@
 For example:
 <code>numberSum(1, 2)</code> should return 3
 <code>numberSum(3, 2)</code> should return 5
-<code>numberSum(3, 3)</code> should return 12 <<
+<code>numberSum(3, 3)</code> should return 12 </p><<
 
 = the correct answer
 

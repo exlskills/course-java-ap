@@ -1,4 +1,4 @@
->>Complete the method <code>closeToTen</code> so that it satisfies the following conditions:</p>
+>>Complete the method <code>closeToTen</code> so that it satisfies the following conditions:
 <ol>
 <li>Returns the input that is nearest to the value 10.</li>
 <li>In the event of a tie, return 0.</li>
@@ -7,7 +7,7 @@
 For example:
 <code>closeToTen(8, 13)</code> should return 8
 <code>closeToTen(11, 8)</code> should return 11
-<code>closeToTen(13, 7)</code> should return 0 <<
+<code>closeToTen(13, 7)</code> should return 0 </p><<
 
 = the correct answer
 

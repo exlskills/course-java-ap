@@ -1,4 +1,4 @@
->>Complete the method <code>removeStartEnd</code> so that it satisfies the following condition:</p>
+>>Complete the method <code>removeStartEnd</code> so that it satisfies the following condition:
 <ol>
 <li>Returns a version of the input without the first and last char.</li>
 </ol>
@@ -7,7 +7,7 @@ Use <code>substring()</code> when writing your response.
 For example:
 <code>removeStartEnd("Hello")</code> should return "ell"
 <code>removeStartEnd("Java")</code> should return "av"
-<code>removeStartEnd("Coding")</code> should return "odin" <<
+<code>removeStartEnd("Coding")</code> should return "odin"</p><<
 
 = the correct answer
 

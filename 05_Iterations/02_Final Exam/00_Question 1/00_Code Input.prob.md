@@ -1,10 +1,10 @@
 >>Complete the method <code>checkE</code> so that it satisfies the following condition:
-Return true if the parameter contains between 1 and 3 <code>char</code> 'e'.</p>
-<p>Use the <code>for</code> statement when writing your response.
+<p>Return true if the parameter contains between 1 and 3 <code>char</code> 'e'.
+Use the <code>for</code> statement when writing your response.
 For example:
 <code>checkE("Hello")</code> should return true
 <code>checkE("Delete")</code> should return true
-<code>checkE("Reference")</code> should return false <<
+<code>checkE("Reference")</code> should return false </p><<
 
 = the correct answer
 

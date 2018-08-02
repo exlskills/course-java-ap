@@ -1,5 +1,5 @@
 >>Complete the method <code>commonStartEnd</code> so that it satisfies the following condition:
-Return true if both arrays have the same first element or the same last element</p>
+Return true if both arrays have the same first element or the same last element
 <p>Assume that the length of the array is greater than or equal to 1.
 Use <code>array.length</code> when writing your response.
 For example:
@@ -8,7 +8,7 @@ For example:
 <code>int[] varThree = {7, 3, 2};</code>
 <code>commonStartEnd(varOne, varTwo)</code> should return true
 <code>commonStartEnd(varTwo, varThree)</code> should return true
-<code>commonStartEnd(varOne, varThree)</code> should return false <<
+<code>commonStartEnd(varOne, varThree)</code> should return false</p><<
 
 = the correct answer
 
