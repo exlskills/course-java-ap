@@ -6,6 +6,6 @@ For example:
 <code>multipleOfTwo(2)</code> should return 4
 <code>multipleOfTwo(3)</code> should return 6 </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||The base case should check if <code>paramOne</code> is equal to 0 or not. ||

@@ -6,6 +6,6 @@ For example:
 <code>greeting("Alice")</code> should return "Hello Alice!"
 <code>greeting("X")</code> should return "Hello X!" </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||There has to be a space after the <code>String</code> "Hello" for the return statement to satisfy the condition. ||

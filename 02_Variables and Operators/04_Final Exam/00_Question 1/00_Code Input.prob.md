@@ -5,6 +5,6 @@ Returns true if the given non-negative number is a multiple of 3.
 <code>multipleOfThree(15)</code> should return true
 <code>multipleOfThree(20)</code> should return false </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||The modulus operator returns the remainder of two numbers.||

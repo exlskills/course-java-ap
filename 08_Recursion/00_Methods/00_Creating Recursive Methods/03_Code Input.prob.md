@@ -7,6 +7,6 @@ For example:
 <code>powerOfNum(3,2)</code> should return 9
 <code>powerOfNum(3,3)</code> should return 27 </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||The base case should check if <code>paramTwo</code> is equal to zero or not. ||

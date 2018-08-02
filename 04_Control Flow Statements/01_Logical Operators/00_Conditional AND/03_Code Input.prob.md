@@ -9,6 +9,6 @@ For example:
 <code>weirdSum(9, 4)</code> should return 20
 <code>weirdSum(10, 11)</code> should return 21 </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||<code>1 &lt;= varOne &amp;&amp; varOne &lt;= 3</code> is the same as <code>1 &lt;= varOne &lt;= 3</code>. ||

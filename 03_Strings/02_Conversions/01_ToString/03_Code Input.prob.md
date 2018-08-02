@@ -6,6 +6,6 @@ For example:
 <code>detectOne(22)</code> should return false
 <code>detectOne(2010)</code> should return true </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||How can you use the <code>indexOf()</code> method to complete this task? ||

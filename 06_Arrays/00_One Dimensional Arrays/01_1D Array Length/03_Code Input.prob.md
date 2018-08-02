@@ -10,6 +10,6 @@ For example:
 <code>commonStartEnd(varTwo, varThree)</code> should return true
 <code>commonStartEnd(varOne, varThree)</code> should return false</p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||Use <code>paramOne.length-1;</code> to indicate the last index of the array. ||

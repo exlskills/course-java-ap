@@ -5,6 +5,6 @@ Returns true if <code>paramOne</code> and <code>paramTwo</code> are both true or
 <code>exampleMethod(false, false)</code> should return true
 <code>exampleMethod(false, true)</code> should return false </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||Which relational operator checks the equality of two values? ||

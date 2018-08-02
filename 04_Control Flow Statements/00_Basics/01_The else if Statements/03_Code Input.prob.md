@@ -9,6 +9,6 @@ For example:
 <code>closeToTen(11, 8)</code> should return 11
 <code>closeToTen(13, 7)</code> should return 0 </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||You can use <code>Math.abs</code> to calculate how close the parameters are to the value 10. ||

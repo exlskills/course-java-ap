@@ -9,6 +9,6 @@ Use the <code>else if</code> statements when writing your response.</li>
 <code>totalSum(3, 2, 13)</code> should return 5
 <code>totalSum(3, 13, 3)</code> should return 3 </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||You can stack <code>else if</code> statements and a final <code>else</code> statement to complete this question. ||

@@ -6,6 +6,6 @@ For example:
 <code>checkE("Delete")</code> should return true
 <code>checkE("Reference")</code> should return false </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||The <code>for</code> statement can be used to check each index while the <code>if</code> statement can be used inside the <code>for</code> statement to check if the index is equal to 'e'. ||

@@ -6,6 +6,6 @@ For example:
 <code>isTeenager(20, 19, 10)</code> should return true
 <code>isTeenager(14, 25, 13)</code> should return true </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||Using the conditional "OR" statement and 3 different conditions can effectively make use of short circuit evaluation in the method. ||

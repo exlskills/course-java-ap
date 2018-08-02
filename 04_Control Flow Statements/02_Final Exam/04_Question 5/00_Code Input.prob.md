@@ -10,6 +10,6 @@ For example:
 <code>luckyNumbers(2, 2, 2)</code> should return 20
 <code>luckyNumbers(1, 1, 2)</code> should return 10 </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||The condition "OR" statement can be used to check if multiple conditions are true or not. ||

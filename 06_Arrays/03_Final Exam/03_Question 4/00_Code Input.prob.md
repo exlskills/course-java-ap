@@ -10,6 +10,6 @@ For example:
 <code>firstOrLastSix(varTwo)</code> should return true
 <code>firstOrLastSix(varThree)</code> should return false </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||Use <code>paramOne.length-1;</code> to indicate the last index of the array. ||

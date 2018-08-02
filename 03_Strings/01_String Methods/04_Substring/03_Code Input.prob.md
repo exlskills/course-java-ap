@@ -9,6 +9,6 @@ For example:
 <code>removeStartEnd("Java")</code> should return "av"
 <code>removeStartEnd("Coding")</code> should return "odin"</p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||<code>substring(x,y)</code> method includes the character at index 'x' but excludes the character at index 'y'. ||

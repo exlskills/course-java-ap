@@ -9,6 +9,6 @@ For example:
 <code>countNine(varTwo)</code> should return 2
 <code>countNine(varThree)</code> should return 3 </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||Creating a integer variable that stores the number of '9' that appears in the array can help solving this question. ||

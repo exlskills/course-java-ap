@@ -12,6 +12,6 @@
 <code>compareArr(varThree, varOne)</code> should return <code>varThree</code></p>
 <p>The length of the array will always be two. </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||Since the length of the array is always two, you can use <code>paramOne[0]</code> and <code>paramOne[1]</code> to answer the question. ||

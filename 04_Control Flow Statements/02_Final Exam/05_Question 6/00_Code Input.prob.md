@@ -9,6 +9,6 @@ For example:
 <code>numberSum(3, 2)</code> should return 5
 <code>numberSum(3, 3)</code> should return 12 </p><<
 
-= the correct answer
+= #!exl::repl('index.prob.repl.yaml')
 
 ||How can the "==" sign be used in the <code>if</code> statement to compare the two parameters? ||
