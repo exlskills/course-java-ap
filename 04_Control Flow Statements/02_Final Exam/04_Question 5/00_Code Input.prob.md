@@ -1,7 +1,7 @@
 >>Complete the method <code>luckyNumbers</code> so that it satisfies the following conditions:</p>
 <ol>
 <li>If all three parameters have the same value, return 20.</li>
-<li>If all three parameters have different values, return 20.</li>
+<li>If all three parameters have different values, return 0.</li>
 <li>If two parameters have the same value, return 10.</li>
 </ol>
 <p>Use the "OR" operator when writing your response.
