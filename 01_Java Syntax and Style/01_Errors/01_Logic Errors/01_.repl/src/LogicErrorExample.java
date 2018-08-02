@@ -1,4 +1,4 @@
-package exlhub;
+package exlcode;
  
  public class LogicErrorExample { 
   public static int exampleVariableOne = 5;

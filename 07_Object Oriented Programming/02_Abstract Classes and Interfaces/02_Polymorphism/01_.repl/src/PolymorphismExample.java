@@ -1,4 +1,4 @@
-package exlhub;
+package exlcode;
 
 public class PolymorphismExample extends PolymorphismTestOne implements PolymorphismTestTwo {
 

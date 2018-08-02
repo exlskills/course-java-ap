@@ -1,4 +1,4 @@
-package exlhub;
+package exlcode;
 
 // class names are written in UpperCamelCase
 // class names are usually nouns or noun phrases.

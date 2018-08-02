@@ -1,4 +1,4 @@
-package exlhub;
+package exlcode;
  
  public class ClassExample { 
   // This creates new String named exampleVariable 

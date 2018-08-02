@@ -1,4 +1,4 @@
-package exlhub;
+package exlcode;
 
 public class HelloWorldExample {
   // This is the main method
