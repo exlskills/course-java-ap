@@ -14,20 +14,20 @@ System.out.println(varOne);
 ( ) 2 {{Incorrect because 4 is printed. View the step-by-step solution for the question by selecting the correct answer, 4.}}
 ( ) 3 {{Incorrect because 4 is printed. View the step-by-step solution for the question by selecting the correct answer, 4.}}
 (x) 4 {{Correct because it accurately represents what the break statement does when the value of <code>varOne</code> is greater than 3.
-The process is shown below:
-<p>When count = 0, 
-<code>varOne++ // varOne = 1</code>
-<code>varOne &gt; 3 // false</code></p>
-<p>When count = 1, 
-<code>varOne++ // varOne = 2</code>
-<code>varOne &gt; 3 // false</code></p>
-<p>When count = 2, 
-<code>varOne++ // varOne = 3</code>
-<code>varOne &gt; 3 // false</code></p>
-<p>When count = 3, 
-<code>varOne++ // varOne = 4</code>
-<code>varOne &gt; 3 // true</code>
-<code>break; // exits the for loop</code></p>
+<p>The process is shown below. Use the comments to guide you through each step:</p>
+<p>When count = 0,<br/>
+<code>varOne++</code> // varOne = 1<br/>
+<code>varOne &gt; 3</code> // results in false</p>
+<p>When count = 1,<br/>
+<code>varOne++</code> // varOne = 2<br/>
+<code>varOne &gt; 3</code> // results in false</p>
+<p>When count = 2,<br/>
+<code>varOne++</code> // varOne = 3<br/>
+<code>varOne &gt; 3</code> // results in false</p>
+<p>When count = 3,<br/>
+<code>varOne++</code> // varOne = 4<br/>
+<code>varOne &gt; 3</code> // results in true<br/>
+<code>break;</code> // exits the for loop</p>
 <p>Therefore, <code>varOne</code> = 4 and "4" will be printed.</p>}}
 ( ) 5 {{Incorrect because 4 is printed. View the step-by-step solution for the question by selecting the correct answer, 4.}}
 ( ) Nothing is printed because an error is thrown. {{Incorrect because the statements above will compile and run successfully.}}

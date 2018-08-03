@@ -9,7 +9,7 @@ double varTwo;
 ( ) <code>varTwo = varOne * 5.0;</code> {{Incorrect because it returns a random value between 0 and 5.0.}}
 ( ) <code>varTwo = varOne * 5.5;</code> {{Incorrect because it returns a random value between 0 and 5.5.}}
 (x) <code>varTwo = varOne * 5.0 + 0.5;</code> {{Correct because it accurately returns a random value between 0.5 (inclusive) and 5.5.
-The process is shown below:
+The process is shown below. Use the comments to guide you through each step:
 <code>Math.random()</code>:             0.0 &lt;= varTwo &lt; 1.0
 <code>Math.random() * 5.0</code>:       0.0 &lt;= varTwo &lt; 5.0
 <code>Math.random() * 5.0 + 0.5</code>: 0.5 &lt;= varTwo &lt; 5.5}}

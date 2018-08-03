@@ -14,25 +14,25 @@ while (varOne &lt;= 5){
 ( ) 111 {{Incorrect because the value of <code>varThree</code> will be 3. View the step-by-step solution for the question by selecting the correct answer, 3.}}
 ( ) 2 {{Incorrect because the value of <code>varThree</code> will be 3. View the step-by-step solution for the question by selecting the correct answer, 3.}}
 (x) 3 {{Correct because it accurately represents what the while loop does and the number of times <code>varThree += varOne % varTwo</code> is executed.
-The process is shown below:
-<p>When varOne = 3,
-<code>varOne &lt;= 5 // true</code>
-<code>varThree += 3 % 2 // varThree + 1</code>
-<code>varOne++ // varOne = 4</code>
-<code>varTwo++ // varTwo = 3</code></p>
-<p>When varOne = 4,
-<code>varOne &lt;= 5 // true</code>
-<code>varThree += 4 % 3 // varThree + 1</code>
-<code>varOne++ // varOne = 5</code>
-<code>varTwo++ // varTwo = 4</code></p>
-<p>When varOne = 5,
-<code>varOne &lt;= 5 // true</code>
-<code>varThree += 5 % 4 // varThree + 1</code>
-<code>varOne++ // varOne = 6</code>
-<code>varTwo++ // varTwo = 5</code></p>
-<p>When varOne = 6,
-<code>varOne &lt;= 5 // false</code></p>
-<p>Therefore, <code>varThree</code> would be equal to 3 after the while loop.</p>}}
+<p>The process is shown below. Use the comments to guide you through each step:</p>
+<p>When varOne = 3,<br/>
+<code>varOne &lt;= 5</code> // results in true<br/>
+<code>varThree += varOne % varTwo</code> // varThree += 1<br/>
+<code>varOne++</code> // varOne = 4<br/>
+<code>varTwo++</code> // varTwo = 3</p>
+<p>When varOne = 4,<br/>
+<code>varOne &lt;= 5</code> // true<br/>
+<code>varThree += varOne % varTwo</code> // varThree + 1<br/>
+<code>varOne++</code> // varOne = 5<br/>
+<code>varTwo++</code> // varTwo = 4</p>
+<p>When varOne = 5,<br/>
+<code>varOne &lt;= 5</code> // true<br/>
+<code>varThree += varOne % varTwo</code> // varThree + 1<br/>
+<code>varOne++</code> // varOne = 6<br/>
+<code>varTwo++</code> // varTwo = 5</p>
+<p>When varOne = 6,<br/>
+<code>varOne &lt;= 5</code> // false</p>
+<p>Therefore, <code>varThree</code> wii equal to 3 after the <code>while</code> loop is run.</p>}}
 ( ) None of these answers is correct. {{Incorrect because the statements above will compile and run successfully. View the step-by-step solution for the question by selecting the correct answer, 3..}}
 
 ||The while statement only runs 3 times, when <code>varOne = 3</code>, <code>varOne = 4</code>, and <code>varOne = 5</code>. ||

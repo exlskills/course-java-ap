@@ -10,7 +10,33 @@
 
 ( ) 16 {{Incorrect because "123456" is printed. View the step-by-step solution for the question by selecting the correct answer, "123456".}}
 ( ) 56 {{Incorrect because "123456" is printed. View the step-by-step solution for the question by selecting the correct answer, "123456".}}
-(x) 123456 {{Correct because it accurately represents what the recursive method above prints. The process is shown below:<p>methodOne(123456)<code>if ((paramOne / 10) != 0) // true (STEP 1)</code><code>methodOne (paramOne / 10) // executes methodOne(12345) (STEP 2)</code><code>System.out.println(paramOne % 10); // prints "6" (STEP 16)</code></p><p>methodOne(12345)<code>if ((paramOne / 10) != 0) // true (STEP 3)</code><code>methodOne (paramOne / 10) // executes methodOne(1234) (STEP 4)</code><code>System.out.println(paramOne % 10); // prints "5" (STEP 15)</code></p><p>methodOne(1234)<code>if ((paramOne / 10) != 0) // true (STEP 5)</code><code>methodOne (paramOne / 10) // executes methodOne(123) (STEP 6)</code><code>System.out.println(paramOne % 10); // prints "4" (STEP 14)</code></p><p>methodOne(123)<code>if ((paramOne / 10) != 0) // true (STEP 7)</code><code>methodOne (paramOne / 10) // executes methodOne(12) (STEP 8)</code><code>System.out.println(paramOne % 10); // prints "3" (STEP 13)</code></p><p>methodOne(12)<code>if ((paramOne / 10) != 0) // true (STEP 9)</code><code>methodOne (paramOne / 10) // executes methodOne(1) (STEP 10 </code><code>System.out.println(paramOne % 10); // prints "2" (STEP 12)</code></p><p>methodOne(1)<code>if ((paramOne / 10) != 0) // false</code><code>methodOne (paramOne / 10) // not executed</code><code>System.out.println(paramOne % 10); // prints "1" (STEP 11)</code></p><p>Therefore, "123456" is printed after <code>methodOne(123456)</code> is executed.</p>}}
+(x) 123456 {{Correct because it accurately represents what the recursive method above prints. 
+<p>The process is shown below. Use the comments to guide you through each step:</p>
+<p>methodOne(123456)<br/>
+<code>if ((paramOne / 10) != 0)</code> // results in true (STEP 1)<br/>
+<code>methodOne(paramOne/10)</code> // executes methodOne(12345) (STEP 2)<br/>
+<code>System.out.println(paramOne % 10);</code> // prints "6" (STEP 16)</p>
+<p>methodOne(12345)<br/>
+<code>if ((paramOne / 10) != 0)</code> // results in true (STEP 3)<br/>
+<code>methodOne(paramOne/10)</code> // executes methodOne(1234) (STEP 4)<br/>
+<code>System.out.println(paramOne % 10);</code> // prints "5" (STEP 15)</p>
+<p>methodOne(1234)<br/>
+<code>if ((paramOne / 10) != 0)</code> // results in true (STEP 5)<br/>
+<code>methodOne(paramOne/10)</code> // executes methodOne(123) (STEP 6)<br/>
+<code>System.out.println(paramOne % 10);</code> // prints "4" (STEP 14)</p>
+<p>methodOne(123)<br/>
+<code>if ((paramOne / 10) != 0)</code> // results in true (STEP 7)<br/>
+<code>methodOne(paramOne/10)</code> // executes methodOne(12) (STEP 8)<br/>
+<code>System.out.println(paramOne % 10);</code> // prints "3" (STEP 13)</p>
+<p>methodOne(12)<br/>
+<code>if ((paramOne / 10) != 0)</code> // results in true (STEP 9)<br/>
+<code>methodOne(paramOne/10)</code> // executes methodOne(1) (STEP 10) <br/>
+<code>System.out.println(paramOne % 10);</code> // prints "2" (STEP 12)</p>
+<p>methodOne(1)<br/>
+<code>if ((paramOne / 10) != 0)</code> // results in false<br/>
+<code>methodOne(paramOne/10)</code> // not executed<br/>
+<code>System.out.println(paramOne % 10);</code> // prints "1" (STEP 11)</p>
+<p>Therefore, "123456" is printed after <code>methodOne(123456)</code> is executed.</p>}}
 ( ) 654321 {{Incorrect because "123456" is printed. View the step-by-step solution for the question by selecting the correct answer, "123456".}}
 ( ) An infinite number of digits will be printed due to infinite recursion. {{Incorrect because "123456" is printed. View the step-by-step solution for the question by selecting the correct answer, "123456".}}
 

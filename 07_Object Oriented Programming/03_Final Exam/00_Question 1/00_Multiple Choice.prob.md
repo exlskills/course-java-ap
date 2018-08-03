@@ -1,5 +1,5 @@
 >>Consider the following class declarations:
-<pre><code class="java language-java">public interface Greeting{
+<pre><code class="java language-java">public interface Greeting {
   public void printGreeting();
 }
 </code></pre>

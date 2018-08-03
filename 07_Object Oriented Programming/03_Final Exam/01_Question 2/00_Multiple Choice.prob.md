@@ -15,11 +15,11 @@
   // methods not shown
 }
 </code></pre>
-<p>Also consider the following variable declarations:
-<code>Earth varOne;</code>
+<p>Also consider the following variable declarations:</p>
+<pre><code>Earth varOne;</code>
 <code>Land varTwo;</code>
 <code>Ocean varThree;</code>
-<code>Countries varFour;</code></p>
+<code>Countries varFour;</code></pre>
 <p>Which of the following code segments will not result in a compile time error?</p><<
 
 ( ) <code>varTwo = new Ocean();</code> {{Incorrect because <code>Ocean</code> is a subclass of <code>Earth</code>, so a reference to <code>Ocean</code> cannot be assigned to <code>Land</code> object .}}

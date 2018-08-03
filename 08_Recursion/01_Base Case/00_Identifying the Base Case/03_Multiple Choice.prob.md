@@ -12,16 +12,16 @@
 ( ) 1 {{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. View the step-by-step solution for the question by selecting the correct answer, 15.}}
 ( ) 10{{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. View the step-by-step solution for the question by selecting the correct answer, 15.}}
 (x) 15 {{Correct because it accurately represents what the recursive method above prints.
-The process is shown below:
-<p>calculate(5)
-<code>if (paramOne &lt;= 1) // false (STEP 1)</code>
-<code>return paramOne * calculate(paramOne - 2); // returns 5 * calculate(3) (STEP 2) and (STEP 8)</code></p>
-<p>calculate(3)
-<code>if (paramOne &lt;= 1) // false (STEP 3)</code>
-<code>return paramOne * calculate(paramOne - 2); // returns 3 * calculate(1) (STEP 4) and (STEP 7)</code></p>
-<p>calculate(1)
-<code>if (paramOne &lt;= 1) // true (STEP 5)</code>
-<code>return 1; // returns 1, go back to STEP 4 (STEP 6)</code></p>
+<p>The process is shown below. Use the comments to guide you through each step:</p>
+<p>calculate(5)<br/>
+<code>if (paramOne &lt;= 1)</code> // results in false (STEP 1)<br/>
+<code>return paramOne * calculate(paramOne - 2);</code><br/> // returns 5 * calculate(3) (STEP 2) and (STEP 8)</p>
+<p>calculate(3)<br/>
+<code>if (paramOne &lt;= 1)</code> // results in false (STEP 3)<br/>
+<code>return paramOne * calculate(paramOne - 2);</code><br/> // returns 3 * calculate(1) (STEP 4) and (STEP 7)</p>
+<p>calculate(1)<br/>
+<code>if (paramOne &lt;= 1)</code> // results in true (STEP 5)<br/>
+<code>return 1;</code> // returns 1, go back to calculate(3) (STEP 6)</p>
 <p>Therefore, "15" is printed after <code>calculate(5)</code> is executed.</p>}}
 ( ) 25{{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. View the step-by-step solution for the question by selecting the correct answer, 15.}}
 ( ) 3125{{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. View the step-by-step solution for the question by selecting the correct answer, 15.}}

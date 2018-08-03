@@ -4,9 +4,9 @@
 <li>In the event of a tie, return 0.</li>
 </ol>
 <p>Use the <code>else if</code> statements when writing your response.
-For example:
-<code>closeToTen(8, 13)</code> should return 8
-<code>closeToTen(11, 8)</code> should return 11
+For example:<br/>
+<code>closeToTen(8, 13)</code> should return 8<br/>
+<code>closeToTen(11, 8)</code> should return 11<br/>
 <code>closeToTen(13, 7)</code> should return 0 </p><<
 
 = #!exl::repl('index.prob.repl.yaml')

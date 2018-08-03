@@ -4,8 +4,8 @@ String varTwo = varOne;
 String varThree = varTwo;
 </code></pre>
 <p>After this code is executed, which of the following statements will evaluate to true?</p>
-<p>I.   <code>varOne.equals(varThree)</code>
-II.  <code>varOne == varTwo</code>
+<p>I.   <code>varOne.equals(varThree)</code><br/>
+II.  <code>varOne == varTwo</code><br/>
 III. <code>varOne == varThree</code> </p><<
 
 ( ) I {{Incorrect because II will also evaluate to true because all three Strings share the same reference as <code>varOne</code>.}}

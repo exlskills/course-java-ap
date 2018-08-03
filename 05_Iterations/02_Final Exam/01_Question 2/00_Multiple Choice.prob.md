@@ -12,24 +12,24 @@ System.out.println(varOne);
 
 ( ) 0 {{Incorrect because 6 is printed.View the step-by-step solution for the question by selecting the correct answer, 6.}}
 (x) 6 {{Correct because it accurately represents what the while loop does and the number of times the body of the while loop is executed.
-The process is shown below:
-<p>When varTwo = 30,
-<code>varTwo != 0 // true</code>
-<code>int varThree = varOne % varTwo // varThree = 24%30 = 24</code>
-<code>varOne = varTwo // varOne = 30</code>
-<code>varTwo = varThree // varTwo = 24</code></p>
-<p>When varTwo = 24,
-<code>varTwo != 0 // true</code>
-<code>int varThree = varOne % varTwo // varThree = 30%24 = 6</code>
-<code>varOne = varTwo // varOne = 24</code>
-<code>varTwo = varThree // varTwo = 6</code></p>
-<p>When varTwo = 6,
-<code>varTwo != 0 // true</code>
-<code>int varThree = varOne % varTwo // varThree = 24%6 = 0</code>
-<code>varOne = varTwo // varOne = 6</code>
-<code>varTwo = varThree // varTwo = 0</code></p>
-<p>When varTwo = 0,
-<code>varTwo != 0 // false</code></p>
+<p>The process is shown below. Use the comments to guide you through each step:</p>
+<p>When varTwo = 30,<br/>
+<code>varTwo != 0</code> // results in true<br/>
+<code>int varThree = varOne % varTwo </code>// varThree = 24%30 = 24<br/>
+<code>varOne = varTwo </code>// varOne = 30<br/>
+<code>varTwo = varThree </code>// varTwo = 24</p>
+<p>When varTwo = 24,<br/>
+<code>varTwo != 0</code> // results in true<br/>
+<code>int varThree = varOne % varTwo</code> // varThree = 30%24 = 6<br/>
+<code>varOne = varTwo</code> // varOne = 24<br/>
+<code>varTwo = varThree </code>// varTwo = 6</p>
+<p>When varTwo = 6,<br/>
+<code>varTwo != 0</code> // results in true<br/>
+<code>int varThree = varOne % varTwo</code> // varThree = 24%6 = 0<br/>
+<code>varOne = varTwo</code> // varOne = 6<br/>
+<code>varTwo = varThree</code> // varTwo = 0</p>
+<p>When varTwo = 0,<br/>
+<code>varTwo != 0</code> // results in false</p>
 <p>Therefore, <code>varOne</code> = 6 and 6 will be printed as a result of executing the code segment.</p>}}
 ( ) 12 {{Incorrect because 6 is printed.View the step-by-step solution for the question by selecting the correct answer, 6.}}
 ( ) 24 {{Incorrect because 6 is printed.View the step-by-step solution for the question by selecting the correct answer, 6.}}

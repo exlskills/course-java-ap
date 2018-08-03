@@ -1,9 +1,9 @@
->>Complete the method <code>greeting</code> so that it satisfies the following condition:
+>>Complete the method <code>greeting</code> so that it satisfies the following condition:<br/>
 Return a greeting in the form "Hello (name)!"
-<p>Use <code>String</code> concatenation when writing your response.
-For example:
-<code>greeting("Bob")</code> should return "Hello Bob!"
-<code>greeting("Alice")</code> should return "Hello Alice!"
+<p>Use <code>String</code> concatenation when writing your response.<br/>
+For example:<br/>
+<code>greeting("Bob")</code> should return "Hello Bob!"<br/>
+<code>greeting("Alice")</code> should return "Hello Alice!"<br/>
 <code>greeting("X")</code> should return "Hello X!" </p><<
 
 = #!exl::repl('index.prob.repl.yaml')

@@ -4,8 +4,8 @@ ExampleClass exampleClassTwo = new ExampleClass();
 ExampleClass exampleClassThree = exampleClassTwo;
 </code></pre>
 <p>After this code is executed, which of the following statements will evaluate to TRUE?</p>
-<p>I.   <code>exampleClassOne.equals(exampleClassThree)</code>
-II.  <code>exampleClassOne == exampleClassTwo</code>
+<p>I.   <code>exampleClassOne.equals(exampleClassThree)</code><br/>
+II.  <code>exampleClassOne == exampleClassTwo</code><br/>
 III. <code>exampleClassOne == exampleClassThree</code></p>
 <<
 

@@ -4,10 +4,10 @@
 <li>If all three parameters have different values, return 0.</li>
 <li>If two parameters have the same value, return 10.</li>
 </ol>
-<p>Use the "OR" operator when writing your response.
-For example:
-<code>luckyNumbers(1, 2, 3)</code> should return 0
-<code>luckyNumbers(2, 2, 2)</code> should return 20
+<p>Use the "OR" operator when writing your response.<br/>
+For example:<br/>
+<code>luckyNumbers(1, 2, 3)</code> should return 0<br/>
+<code>luckyNumbers(2, 2, 2)</code> should return 20<br/>
 <code>luckyNumbers(1, 1, 2)</code> should return 10 </p><<
 
 = #!exl::repl('index.prob.repl.yaml')

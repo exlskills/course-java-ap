@@ -4,9 +4,9 @@
 <li>If one of the values are 13, it does not count towards the sum and values to its right do not count either.
 Use the <code>else if</code> statements when writing your response.</li>
 </ol>
-<p>For example:
-<code>totalSum(1, 2, 3)</code> should return 6
-<code>totalSum(3, 2, 13)</code> should return 5
+<p>For example:<br/>
+<code>totalSum(1, 2, 3)</code> should return 6<br/>
+<code>totalSum(3, 2, 13)</code> should return 5<br/>
 <code>totalSum(3, 13, 3)</code> should return 3 </p><<
 
 = #!exl::repl('index.prob.repl.yaml')

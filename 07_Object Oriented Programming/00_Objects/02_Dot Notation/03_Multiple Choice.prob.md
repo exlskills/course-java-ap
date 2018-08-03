@@ -1,5 +1,5 @@
 >>Consider the following class declarations:
-<pre><code class="java language-java">public class Main{
+<pre><code class="java language-java">public class Main {
   public static void main (String[] args){
     ExampleClass exampleClassOne = new ExampleClass();
     System.out.println(exampleClassOne.varOne);
@@ -9,7 +9,7 @@
   }
 }
 </code></pre>
-<pre><code class="java language-java">public class ExampleClass{
+<pre><code class="java language-java">public class ExampleClass {
   public int varOne = 10;
   private String varTwo = "Hello World";
   private boolean varThree = false;

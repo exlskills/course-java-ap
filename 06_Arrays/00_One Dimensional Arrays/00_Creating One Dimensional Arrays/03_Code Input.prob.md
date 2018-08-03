@@ -3,14 +3,14 @@
 <li>Return the array with the larger sum</li>
 <li>In the event of a tie, return the first array in the parameter</li>
 </ol>
-<p>For example:
-<code>int[] varOne = {1, 2};</code>
+<p>For example, given:<br/>
+<pre><code>int[] varOne = {1, 2};</code>
 <code>int[] varTwo = {3, 4};</code>
-<code>int[] varThree = {0, 3};</code>
+<code>int[] varThree = {0, 3};</code></pre>
 <code>compareArr(varOne, varTwo)</code> should return <code>varTwo</code>
 <code>compareArr(varTwo, varOne)</code> should return <code>varTwo</code>
 <code>compareArr(varThree, varOne)</code> should return <code>varThree</code></p>
-<p>The length of the array will always be two. </p><<
+<p>Assume that the length of the array will always be two. </p><<
 
 = #!exl::repl('index.prob.repl.yaml')
 

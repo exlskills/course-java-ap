@@ -1,12 +1,12 @@
 >>Assume that <code>varOne</code> and <code>varTwo</code> are integers. The expression:
-<code>!(varOne &lt; varTwo) &amp;&amp; !(varOne &gt; varTwo)</code>
+<code><br/>!(varOne &lt; varTwo) &amp;&amp; !(varOne &gt; varTwo)<br/></code>
 is equivalent to which of the following? <<
 
 (x) <code>varOne == varTwo</code> {{Correct because the negation of the "AND" statement and the '&gt;' and '&lt;' lead to the statement <code>varOne == varTwo</code>.
-The process is shown below:
-Expression: <code>!(varOne &lt; varTwo) &amp;&amp; !(varOne &gt; varTwo)</code>
-          = <code>(varOne &gt;= varTwo) &amp;&amp; (varOne &lt;= varTwo)</code>
-          = <code>varOne == varTwo</code> (because varOne cannot be smaller than varTwo and bigger than varTwo at the same time)}}
+<p>The process is shown below. Use the comments to guide you through each step:<br/>
+<code>!(varOne &lt; varTwo) &amp;&amp; !(varOne &gt; varTwo)</code><br/>
+= <code>(varOne &gt;= varTwo) &amp;&amp; (varOne &lt;= varTwo)</code><br/>
+= <code>varOne == varTwo</code> (because <code>varOne</code> cannot be smaller and bigger than <code>varTwo</code>, meaning <code>varOne</code> has to equal <code>varTwo</code>)</p>}}
 ( ) <code>varOne != varTwo</code> {{Incorrect because the expression evaluates to <code>varOne == varTwo</code>. View the step-by-step solution for the question by selecting the correct answer, <code>varOne == varTwo</code>.}}
 ( ) <code>!((varOne &lt; varTwo) &amp;&amp; (varOne &gt; varTwo))</code> {{Incorrect because the expression evaluates to <code>varOne == varTwo</code>. View the step-by-step solution for the question by selecting the correct answer, <code>varOne == varTwo</code>.}}
 ( ) <code>true</code> {{Incorrect because the expression does not always evaluate to true.}}

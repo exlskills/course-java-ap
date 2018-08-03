@@ -4,9 +4,9 @@ String varTwo = new String("Hi There");
 String varThree = varOne;
 </code></pre>
 <p>After this code is executed, which of the following statements will evaluate to TRUE?</p>
-<p>I. <code>varOne == varTwo</code>
-II. <code>varOne.equals(varTwo)</code>
-III. <code>varOne == varThree</code>
+<p>I. <code>varOne == varTwo</code><br/>
+II. <code>varOne.equals(varTwo)</code><br/>
+III. <code>varOne == varThree</code><br/>
 IV. <code>varTwo.equals(varThree)</code></p><<
 
 ( ) II {{Incorrect because III and IV will also evaluate to true because all three strings hold the value "Hi There".}}

@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">try{
+<pre><code class="java language-java">try {
   System.out.println("Hello" + 1 / 0);
 } catch (ArithmeticException e){
   System.out.print("World");

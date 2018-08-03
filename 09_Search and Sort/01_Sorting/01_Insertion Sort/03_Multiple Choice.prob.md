@@ -22,25 +22,23 @@ What will the value of <code>paramOne</code> be after two passes of the outer lo
 ( ) {2, 3, 4, 5, 1} {{Incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. The correct process is shown with the right answer, {3,4,5,2,1}.}}
 ( ) {3, 2, 1, 4, 5} {{Incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. The correct process is shown with the right answer, {3,4,5,2,1}.}}
 (x) {3, 4, 5, 2, 1} {{Correct because it accurately represents what the array will be when j = 2 at the point indicated by <code>/* End of outer loop */</code>.
-The process is shown below:
-<p>j = 1<br />
-<code>int insertItem = paramOne[j]; // int insertItem = 4</code>
-<code>int k = j - 1; // int k = 0</code>
-<code>while (k &gt;= 0 &amp;&amp; insertItem &lt; paramOne[k]) // finds the largest value in the array before index 1 (in this case it will be 5)</code>
-<code>paramOne[k + 1] = paramOne[k]; // paramOne[1] = 5</code>
-<code>k--; // int k = -1</code>
-<code>paramOne[k + 1] = insertItem; // paramOne[0] = 4</code>
-<code>/* End of outer loop */</code>
-<code>// paramOne = {4,5,3,2,1}</code></p>
-<p>j = 2<br />
-<code>int insertItem = paramOne[j]; // int insertItem = 3</code>
-<code>int k = j - 1; // int k = 1</code>
-<code>while (k &gt;= 0 &amp;&amp; insertItem &lt; paramOne[k]) // finds the largest value in the array before index 2 (in this case it will be 5)</code>
-<code>paramOne[k + 1] = paramOne[k]; // paramOne[2] = 5 and paramOne[1] = 4</code>
-<code>k--; // int k = -1</code>
-<code>paramOne[k + 1] = insertItem; // paramOne[0] = 3</code>
-<code>/* End of outer loop */</code><br />
-<code>// paramOne = {3,4,5,2,1}</code></p>
+<p>The process is shown below. Use the comments to guide you through each step:</p>
+<p>j = 1<br/>
+<code>int insertItem = paramOne[j];</code> // int insertItem = 4<br/>
+<code>int k = j - 1;</code> // int k = 0<br/>
+<code>while (k &gt;= 0 &amp;&amp; insertItem &lt; paramOne[k])</code> // Finds the largest value in the array before index 1 (in this case it will be 5)<br/>
+<code>paramOne[k + 1] = paramOne[k];</code> // paramOne[1] = paramOne[0], which changes the first index of the array from 4 to 5<br/>
+<code>k--;</code> // int k = -1<br/>
+<code>paramOne[k + 1] = insertItem;</code> // paramOne[0] = 4</code><br/>
+<code>/* End of outer loop */</code> // paramOne is now {4,5,3,2,1}</p>
+<p>j = 2<br/>
+<code>int insertItem = paramOne[j];</code> // int insertItem = 3<br/>
+<code>int k = j - 1;</code> // int k = 1<br/>
+<code>while (k &gt;= 0 &amp;&amp; insertItem &lt; paramOne[k])</code> // Finds the largest value in the array before index 2 (in this case it will be 5)<br/>
+<code>paramOne[k + 1] = paramOne[k];</code> // paramOne[2] = 5 and paramOne[1] = 4<br/>
+<code>k--;</code> // int k = -1<br/>
+<code>paramOne[k + 1] = insertItem;</code> // paramOne[0] = 3<br/>
+<code>/* End of outer loop */</code> // paramOne is now {3,4,5,2,1}</p>
 <p>Therefore, <code>paramOne</code> will be {3, 4, 5, 2, 1} when j = 2 at <code>/* End of outer loop */</code></p>}}
 
 ||Insertion sort compares two values to ensure that the smaller value comes before the larger one. ||

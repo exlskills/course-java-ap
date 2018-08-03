@@ -16,13 +16,20 @@ System.out.println(sum);
 ( ) 18 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. View the step-by-step solution for the question by selecting the correct answer, 9.}}
 ( ) 16 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. View the step-by-step solution for the question by selecting the correct answer, 9.}}
 (x) 9 {{Correct because it accurately represents how the <code>ArrayList</code> methods change the <code>ArrayList</code>.
-The process is shown below:
-<code>ArrayList varOne = new ArrayList(); // varOne = []</code>
-<code>varOne.add(7); // varOne = [7]</code>
-<code>varOne.add(3); // varOne = [7, 3]</code>
-<code>varOne.add(9); // varOne = [7, 3, 9]</code>
-<code>varOne.set(1,2); // varOne = [7, 2, 9]</code>
-<code>varOne.remove(2); // varOne = [7, 2]</code>}}
+<p>The process is shown below. Use the comments to guide you through each step:<br/>
+<code>ArrayList varOne = new ArrayList();</code> <br/>
+// varOne now looks like this: []<br/>
+<code>varOne.add(7);</code><br/>
+// varOne now looks like this: [7]<br/>
+<code>varOne.add(3);</code><br/> 
+// varOne now looks like this: [7,3]<br/>
+<code>varOne.add(9);</code><br/>
+// varOne now looks like this: [7, 3, 9]<br/>
+<code>varOne.set(1,2);</code><br/>
+// varOne now looks like this: [7, 2, 9]<br/>
+<code>varOne.remove(2);</code><br/>
+// varOne now looks like this: [7, 2]<br/>
+The <code>for</code> statement then adds all the elements of <code>varOne</code>, resulting in 9.</p>}}
 ( ) 11 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. View the step-by-step solution for the question by selecting the correct answer, 9.}}
 ( ) 10 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. View the step-by-step solution for the question by selecting the correct answer, 9.}}
 

@@ -1,6 +1,6 @@
 >>Which of the following statements about a class that contains an abstract method is(are) true?
-<p>I.   You can't have any constructors in this class.
-II.  This class must be declared as abstract.
+<p>I.   You can't have any constructors in this class.<br/>
+II.  This class must be declared as abstract.<br/>
 III. You can't declare any fields in this class.</p><<
 
 ( ) I only {{Incorrect because constructors can be declared in an abstract class.}}
