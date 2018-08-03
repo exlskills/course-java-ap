@@ -23,13 +23,8 @@
 
 ( ) False {{Incorrect because only expressions that evaluate to true are executed.}}
 ( ) True {{Incorrect because <code>!false</code> also evaluates to true.}}
-( ) False 
-Not True {{Incorrect because only expressions that evaluate to true are executed.}}
-(x) True
-Not False {{Correct because only expressions that evaluate to true are executed, and <code>!false</code> evaluates to true.}}
-( ) False
-True
-Not False
-Not True {{Incorrect because only expressions that evaluate to true are executed.}}
+( ) False Not True {{Incorrect because only expressions that evaluate to true are executed.}}
+(x) True Not False {{Correct because only expressions that evaluate to true are executed, and <code>!false</code> evaluates to true.}}
+( ) False True Not False Not True {{Incorrect because only expressions that evaluate to true are executed.}}
 
 ||The if statements only execute when the value in the bracket results to <code>true</code>. ||
