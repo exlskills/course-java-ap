@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">int varOne = 24;
+<pre><code>int varOne = 24;
 int varTwo = 30;
 while (varTwo != 0){
   int varThree = varOne % varTwo;

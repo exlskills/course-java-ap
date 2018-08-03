@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">double varOne; 
+<pre><code>double varOne; 
 int varTwo = 56; 
 int varThree = 25; 
 varOne = varTwo / varThree; 

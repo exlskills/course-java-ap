@@ -1,5 +1,5 @@
 >>Consider the following class declarations:
-<pre><code class="java language-java">public class Vehicle
+<pre><code>public class Vehicle
 {
   private int varOne;
   public Vehicle(){ 
@@ -10,7 +10,7 @@
   }
 }
 </code></pre>
-<pre><code class="java language-java">public class Car extends Vehicle
+<pre><code>public class Car extends Vehicle
 {
   public Car(){ 
     super(0); 

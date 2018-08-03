@@ -1,5 +1,5 @@
 >>Consider the following insertion sort method:
-<pre><code class="java language-java">public void insertionSort(int[] paramOne){
+<pre><code>public void insertionSort(int[] paramOne){
   for (int j = 1; j &lt; paramOne.length; j++)
   {
     int insertItem = paramOne[j];

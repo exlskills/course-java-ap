@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">private int calculate (int paramOne){
+<pre><code>private int calculate (int paramOne){
   if (paramOne &lt;= 1){
     return 1;
   } else {

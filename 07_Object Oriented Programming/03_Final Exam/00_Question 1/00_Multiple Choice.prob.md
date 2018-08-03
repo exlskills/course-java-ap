@@ -1,9 +1,9 @@
 >>Consider the following class declarations:
-<pre><code class="java language-java">public interface Greeting {
+<pre><code>public interface Greeting {
   public void printGreeting();
 }
 </code></pre>
-<pre><code class="java language-java">public class PersonGreeting implements Greeting
+<pre><code>public class PersonGreeting implements Greeting
 {
   public void print(){
   }

@@ -1,11 +1,11 @@
 >>Consider the following class declarations:
-<pre><code class="java language-java">public class Food{
+<pre><code>public class Food{
   public void print(){
     System.out.print("Food");
   }
 }
 </code></pre>
-<pre><code class="java language-java">public class Bread extends Food
+<pre><code>public class Bread extends Food
 {
   public void print()
   {

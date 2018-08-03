@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">String varOne = "HelloWorld!";
+<pre><code>String varOne = "HelloWorld!";
 String varTwo = varOne.substring(0,7);
 String varThree = varTwo.substring(2);
 String varFour = varThree.substring(0,3);

@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">String varOne = "Hello World!";
+<pre><code>String varOne = "Hello World!";
 String varTwo = "Java";
 System.out.println(varOne.compareTo(varTwo));
 </code></pre>

@@ -1,5 +1,5 @@
 >>Given the following code segment:
-<pre><code class="java language-java">String varOne = "ab";
+<pre><code>String varOne = "ab";
 String varTwo = varOne;
 varOne = varOne + varTwo + "c";
 </code></pre>

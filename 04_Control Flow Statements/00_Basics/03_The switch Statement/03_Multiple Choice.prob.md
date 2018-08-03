@@ -1,5 +1,5 @@
 >>What is the value of <code>varTwo</code> after the following switch statement is executed?
-<pre><code class="java language-java">int varOne = 3;
+<pre><code>int varOne = 3;
 int varTwo = 4;
 switch (varOne+3){
   case 6:

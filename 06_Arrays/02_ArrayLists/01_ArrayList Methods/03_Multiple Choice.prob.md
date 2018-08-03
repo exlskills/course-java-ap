@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">ArrayList&lt;String&gt; varOne = new ArrayList&lt;String&gt;();
+<pre><code>ArrayList&lt;String&gt; varOne = new ArrayList&lt;String&gt;();
 varOne.add("Java");
 varOne.add("C++");
 varOne.add("Python");

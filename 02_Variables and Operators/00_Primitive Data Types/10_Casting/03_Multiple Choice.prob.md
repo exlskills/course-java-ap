@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">double piValue = 3.14159;
+<pre><code>double piValue = 3.14159;
 int radius = 5000;
 int circumference = (int)(2 * piValue * radius);
 System.out.println(circumference);

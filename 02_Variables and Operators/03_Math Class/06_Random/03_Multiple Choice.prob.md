@@ -1,5 +1,5 @@
 >>Assume that the following variable declarations have been made.
-<pre><code class="java language-java">double varOne = Math.random();
+<pre><code>double varOne = Math.random();
 double varTwo;
 </code></pre>
 <p>Which of the following assigns a value to <code>varTwo</code> with the uniform distribution over the range 0.5 &lt;= <code>varTwo</code> &lt; 5.5?</p><<

@@ -1,5 +1,5 @@
 >>What is the new value of <code>varOne</code> after the following code is executed?
-<pre><code class="java language-java">int varOne = 12;
+<pre><code>int varOne = 12;
 varOne += 5;
 varOne -= 10;
 varOne = 12;</code></pre><<

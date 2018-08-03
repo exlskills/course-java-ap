@@ -1,5 +1,5 @@
 >>Which variables in the following code segment are field variables?
-<pre><code class="java language-java">public class TestClass()
+<pre><code>public class TestClass()
 {
   int varOne = 100;
   int varTwo = 25;

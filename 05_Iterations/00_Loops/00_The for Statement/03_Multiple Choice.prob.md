@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">String varOne = "abcdef";
+<pre><code>String varOne = "abcdef";
 for (int count = 0; count &lt; varOne.length()-1; count++){
   System.out.print(varOne.substring(count, count+2));
 }</code></pre>

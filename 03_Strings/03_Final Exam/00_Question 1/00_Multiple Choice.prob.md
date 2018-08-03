@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">String varOne = "Hello World!";
+<pre><code>String varOne = "Hello World!";
 System.out.println(varOne.toUpperCase());
 </code></pre>
 <p>What is printed as a result of executing this code segment?</p><<

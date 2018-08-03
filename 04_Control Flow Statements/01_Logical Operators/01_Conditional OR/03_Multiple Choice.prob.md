@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">public static void exampleMethod(int paramOne, int paramTwo)
+<pre><code>public static void exampleMethod(int paramOne, int paramTwo)
 {
   if ((paramOne &gt; 0) &amp;&amp; (paramTwo &gt; 0)) {
     if (paramOne &gt; paramTwo){

@@ -1,5 +1,5 @@
 >>Consider the code segment below:
-<pre><code class="java language-java">double[] varOne = {2.5, 3, 4};
+<pre><code>double[] varOne = {2.5, 3, 4};
 for (double varTwo: varOne){
   System.out.print(varTwo + " ");
 }

@@ -1,5 +1,5 @@
 >>Given the following code segment, what is the value of varTwo?
-<pre><code class="java language-java">double varOne = 9.692;
+<pre><code>double varOne = 9.692;
 int varTwo = 12;
 varTwo = (int)varOne;
 </code></pre> <<

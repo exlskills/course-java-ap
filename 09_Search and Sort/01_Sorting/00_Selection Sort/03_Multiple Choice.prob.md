@@ -1,5 +1,5 @@
 >>Consider the following selection sort method:
-<pre><code class="java language-java">public void selectionSort(int[] paramOne){
+<pre><code>public void selectionSort(int[] paramOne){
   for (int j = 0; j &lt; paramOne.length-1; j++){
     int m = j;
     for (int k = j + 1; k &lt; paramOne.length; k++){

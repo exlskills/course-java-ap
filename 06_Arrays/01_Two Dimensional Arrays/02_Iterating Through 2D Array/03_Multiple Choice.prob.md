@@ -1,5 +1,5 @@
 >>A two dimensional array, paramOne, holds integer values ranging from 1 to 10. Consider the following method:
-<pre><code class="java language-java">public int exampleMethod(int[][] paramOne) 
+<pre><code>public int exampleMethod(int[][] paramOne) 
 {
   int row;
   int column;

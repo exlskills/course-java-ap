@@ -1,17 +1,17 @@
 >>Consider the following class declarations:
-<pre><code class="java language-java">public class Earth {
+<pre><code>public class Earth {
   // methods not shown
 }
 </code></pre>
-<pre><code class="java language-java">public class Land extends Earth {
+<pre><code>public class Land extends Earth {
   // methods not shown
 }
 </code></pre>
-<pre><code class="java language-java">public class Ocean extends Earth {
+<pre><code>public class Ocean extends Earth {
   // methods not shown
 }
 </code></pre>
-<pre><code class="java language-java">public class Countries extends Land {
+<pre><code>public class Countries extends Land {
   // methods not shown
 }
 </code></pre>

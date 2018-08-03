@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">int varOne = 0;
+<pre><code>int varOne = 0;
 for (int count = 0; count &lt; 20; count++)
 {
   varOne ++;

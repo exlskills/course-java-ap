@@ -1,5 +1,5 @@
 >>Fill in the blank below:
-<pre><code class="java language-java">public static ___ getGrade(double score) {
+<pre><code>public static ___ getGrade(double score) {
   if (score &gt;= 90.0)
     return 'A';
   else if (score &gt;= 80.0)

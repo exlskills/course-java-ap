@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">char varOne = 'a';
+<pre><code>char varOne = 'a';
 switch (varOne){
   case 'a':
   case 'A':

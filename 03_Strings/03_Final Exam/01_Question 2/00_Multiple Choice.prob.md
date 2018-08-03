@@ -1,5 +1,5 @@
 >>Consider the following code:
-<pre><code class="java language-java">String varOne = new String("Hi There");
+<pre><code>String varOne = new String("Hi There");
 String varTwo = new String("Hi There");
 String varThree = varOne;
 </code></pre>

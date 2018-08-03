@@ -1,6 +1,6 @@
 >>Consider the following code segments:
 <p>I.</p>
-<pre><code class="java language-java">int varOne = 1;
+<pre><code>int varOne = 1;
 while (varOne &lt; 20){
   if (varOne % 3 == 1){
     System.out.print(varOne + " ");
@@ -9,7 +9,7 @@ while (varOne &lt; 20){
 }
 </code></pre>
 <p>II.</p>
-<pre><code class="java language-java">for (int varOne = 1; varOne &lt; 20; varOne++)
+<pre><code>for (int varOne = 1; varOne &lt; 20; varOne++)
 {
   if (varOne % 3 == 1){
     System.out.print(varOne + " ");
@@ -17,7 +17,7 @@ while (varOne &lt; 20){
 }
 </code></pre>
 <p>III.</p>
-<pre><code class="java language-java">for (int varOne = 1; varOne &lt; 20; varOne = varOne + 3)
+<pre><code>for (int varOne = 1; varOne &lt; 20; varOne = varOne + 3)
 {
   System.out.print(varOne + " ");
 }</code></pre>

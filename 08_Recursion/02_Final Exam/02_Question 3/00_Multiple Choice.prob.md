@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">public void methodOne (int paramOne){
+<pre><code>public void methodOne (int paramOne){
   if ((paramOne / 10) != 0){
     methodOne (paramOne / 10);
   }

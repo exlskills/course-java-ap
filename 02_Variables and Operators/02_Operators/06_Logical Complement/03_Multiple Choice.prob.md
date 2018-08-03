@@ -1,5 +1,5 @@
 >>Consider the following method:
-<pre><code class="java language-java">public static void exampleMethod()
+<pre><code>public static void exampleMethod()
 {
   if(false)
   {

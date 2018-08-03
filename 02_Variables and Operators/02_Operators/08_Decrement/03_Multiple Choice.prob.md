@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">int varOne = 0;
+<pre><code>int varOne = 0;
 int varTwo = 10;
 varOne = --varTwo;
 System.out.println("varOne: " + varOne + " varTwo: " + varTwo)

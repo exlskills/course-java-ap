@@ -1,5 +1,5 @@
 >>Consider the following code segment:
-<pre><code class="java language-java">ArrayList&lt;Integer&gt; varOne = new ArrayList&lt;Integer&gt;();
+<pre><code>ArrayList&lt;Integer&gt; varOne = new ArrayList&lt;Integer&gt;();
 varOne.add(new Integer(1));
 varOne.add(new Integer(2));
 varOne.add(new Integer(3));
