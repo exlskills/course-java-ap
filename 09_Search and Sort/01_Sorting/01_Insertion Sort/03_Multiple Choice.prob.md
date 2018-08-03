@@ -29,7 +29,7 @@ What will the value of <code>paramOne</code> be after two passes of the outer lo
 <code>while (k &gt;= 0 &amp;&amp; insertItem &lt; paramOne[k])</code> // Finds the largest value in the array before index 1 (in this case it will be 5)<br/>
 <code>paramOne[k + 1] = paramOne[k];</code> // paramOne[1] = paramOne[0], which changes the first index of the array from 4 to 5<br/>
 <code>k--;</code> // int k = -1<br/>
-<code>paramOne[k + 1] = insertItem;</code> // paramOne[0] = 4</code><br/>
+<code>paramOne[k + 1] = insertItem;</code> // paramOne[0] = 4<br/>
 <code>/* End of outer loop */</code> // paramOne is now {4,5,3,2,1}</p>
 <p>j = 2<br/>
 <code>int insertItem = paramOne[j];</code> // int insertItem = 3<br/>
