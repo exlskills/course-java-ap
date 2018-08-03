@@ -10,9 +10,9 @@ while (varOne &lt;= 5){
 </code></pre>
 <p>What is the value of <code>varThree</code> after the code is executed?</p><<
 
-( ) 1 {{Incorrect because the value of <code>varThree</code> will be 3. Look at the process shown within the fourth answer choice.}}
-( ) 111 {{Incorrect because the value of <code>varThree</code> will be 3. Look at the process shown within the fourth answer choice.}}
-( ) 2 {{Incorrect because the value of <code>varThree</code> will be 3. Look at the process shown within the fourth answer choice.}}
+( ) 1 {{Incorrect because the value of <code>varThree</code> will be 3. View the step-by-step solution for the question by selecting the correct answer, 3.}}
+( ) 111 {{Incorrect because the value of <code>varThree</code> will be 3. View the step-by-step solution for the question by selecting the correct answer, 3.}}
+( ) 2 {{Incorrect because the value of <code>varThree</code> will be 3. View the step-by-step solution for the question by selecting the correct answer, 3.}}
 (x) 3 {{Correct because it accurately represents what the while loop does and the number of times <code>varThree += varOne % varTwo</code> is executed.
 The process is shown below:
 <p>When varOne = 3,
@@ -33,6 +33,6 @@ The process is shown below:
 <p>When varOne = 6,
 <code>varOne &lt;= 5 // false</code></p>
 <p>Therefore, <code>varThree</code> would be equal to 3 after the while loop.</p>}}
-( ) None of these answers is correct. {{Incorrect because the statements above will compile and run successfully. Look at the process shown within the fourth answer choice..}}
+( ) None of these answers is correct. {{Incorrect because the statements above will compile and run successfully. View the step-by-step solution for the question by selecting the correct answer, 3..}}
 
 ||The while statement only runs 3 times, when <code>varOne = 3</code>, <code>varOne = 4</code>, and <code>varOne = 5</code>. ||

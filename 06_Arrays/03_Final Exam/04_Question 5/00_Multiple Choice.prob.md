@@ -13,8 +13,8 @@ System.out.println(sum);
 </code></pre>
 <p>What is printed as a result of executing the code segment? </p><<
 
-( ) 18 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. Look at the process shown within the third answer choice.}}
-( ) 16 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. Look at the process shown within the third answer choice.}}
+( ) 18 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. View the step-by-step solution for the question by selecting the correct answer, 9.}}
+( ) 16 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. View the step-by-step solution for the question by selecting the correct answer, 9.}}
 (x) 9 {{Correct because it accurately represents how the <code>ArrayList</code> methods change the <code>ArrayList</code>.
 The process is shown below:
 <code>ArrayList varOne = new ArrayList(); // varOne = []</code>
@@ -23,7 +23,7 @@ The process is shown below:
 <code>varOne.add(9); // varOne = [7, 3, 9]</code>
 <code>varOne.set(1,2); // varOne = [7, 2, 9]</code>
 <code>varOne.remove(2); // varOne = [7, 2]</code>}}
-( ) 11 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. Look at the process shown above.}}
-( ) 10 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. Look at the process shown within the third answer choice.}}
+( ) 11 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. View the step-by-step solution for the question by selecting the correct answer, 9.}}
+( ) 10 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. View the step-by-step solution for the question by selecting the correct answer, 9.}}
 
 ||The <code>for</code> statement at the end simply returns the sum of the elements inside the <code>ArrayList</code>. ||

@@ -7,8 +7,8 @@ The process is shown below:
 Expression: <code>!(varOne &lt; varTwo) &amp;&amp; !(varOne &gt; varTwo)</code>
           = <code>(varOne &gt;= varTwo) &amp;&amp; (varOne &lt;= varTwo)</code>
           = <code>varOne == varTwo</code> (because varOne cannot be smaller than varTwo and bigger than varTwo at the same time)}}
-( ) <code>varOne != varTwo</code> {{Incorrect because the expression evaluates to <code>varOne == varTwo</code>. Look at the process shown within the first answer choice.}}
-( ) <code>!((varOne &lt; varTwo) &amp;&amp; (varOne &gt; varTwo))</code> {{Incorrect because the expression evaluates to <code>varOne == varTwo</code>. Look at the process shown within the first answer choice.}}
+( ) <code>varOne != varTwo</code> {{Incorrect because the expression evaluates to <code>varOne == varTwo</code>. View the step-by-step solution for the question by selecting the correct answer, <code>varOne == varTwo</code>.}}
+( ) <code>!((varOne &lt; varTwo) &amp;&amp; (varOne &gt; varTwo))</code> {{Incorrect because the expression evaluates to <code>varOne == varTwo</code>. View the step-by-step solution for the question by selecting the correct answer, <code>varOne == varTwo</code>.}}
 ( ) <code>true</code> {{Incorrect because the expression does not always evaluate to true.}}
 ( ) <code>false</code> {{Incorrect because the expression does not always evaluate to false.}}
 

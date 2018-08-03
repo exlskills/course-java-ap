@@ -10,9 +10,9 @@ Expression: 8+7<em>4-2.0/4 + (5-3</em>4-2)
           = 8+28-0.5 + (-9)
           = 35.5 + (-9)
           = 26.5}}
-( ) 64{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. Look at the process shown within the first answer choice.}}
-( ) 39.5{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. Look at the process shown within the first answer choice.}}
-( ) -6.8{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. Look at the process shown within the first answer choice.}}
-( ) 2.5{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. Look at the process shown within the first answer choice.}}
+( ) 64{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. View the step-by-step solution for the question by selecting the correct answer, 26.5.}}
+( ) 39.5{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. View the step-by-step solution for the question by selecting the correct answer, 26.5.}}
+( ) -6.8{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. View the step-by-step solution for the question by selecting the correct answer, 26.5.}}
+( ) 2.5{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. View the step-by-step solution for the question by selecting the correct answer, 26.5.}}
 
 ||What is the order of operations and how does it apply to the expression above? ||

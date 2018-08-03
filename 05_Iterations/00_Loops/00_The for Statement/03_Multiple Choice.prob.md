@@ -6,9 +6,9 @@ for (int count = 0; count &lt; varOne.length()-1; count++){
 </code></pre>
 <p>What is printed as a result of executing this code segment?</p><<
 
-( ) abcdef {{Incorrect because "abbccddeef" is printed. Look at the process shown within the fourth answer choice.}}
-( ) aabbccddeeff {{Incorrect because "abbccddeef" is printed. Look at the process shown within the fourth answer choice.}}
-( ) abcbcdcdedef {{Incorrect because "abbccddeef" is printed. Look at the process shown within the fourth answer choice.}}
+( ) abcdef {{Incorrect because "abbccddeef" is printed. View the step-by-step solution for the question by selecting the correct answer, "abbccddeef".}}
+( ) aabbccddeeff {{Incorrect because "abbccddeef" is printed. View the step-by-step solution for the question by selecting the correct answer, "abbccddeef".}}
+( ) abcbcdcdedef {{Incorrect because "abbccddeef" is printed. View the step-by-step solution for the question by selecting the correct answer, "abbccddeef".}}
 (x) abbccddeef {{Correct because it accurately represents what the for loop does and the number of times <code>varOne.substring(count, count+2);</code> is printed on the console.
 The process is shown below:
 When count = 0, <code>varOne.substring(0, 2)</code> = "ab"

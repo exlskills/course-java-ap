@@ -9,8 +9,8 @@
 </code></pre>
 <p>Which of the following is printed as a result of the call <code>calculate(5)</code>?</p><<
 
-( ) 1 {{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. Look at the process shown within the third answer choice.}}
-( ) 10{{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. Look at the process shown within the third answer choice.}}
+( ) 1 {{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. View the step-by-step solution for the question by selecting the correct answer, 15.}}
+( ) 10{{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. View the step-by-step solution for the question by selecting the correct answer, 15.}}
 (x) 15 {{Correct because it accurately represents what the recursive method above prints.
 The process is shown below:
 <p>calculate(5)
@@ -23,7 +23,7 @@ The process is shown below:
 <code>if (paramOne &lt;= 1) // true (STEP 5)</code>
 <code>return 1; // returns 1, go back to STEP 4 (STEP 6)</code></p>
 <p>Therefore, "15" is printed after <code>calculate(5)</code> is executed.</p>}}
-( ) 25{{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. Look at the process shown within the third answer choice.}}
-( ) 3125{{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. Look at the process shown within the third answer choice.}}
+( ) 25{{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. View the step-by-step solution for the question by selecting the correct answer, 15.}}
+( ) 3125{{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. View the step-by-step solution for the question by selecting the correct answer, 15.}}
 
 ||The <code>calculate()</code> method is only called twice after the initial call <code>calculate(5)</code>. ||
