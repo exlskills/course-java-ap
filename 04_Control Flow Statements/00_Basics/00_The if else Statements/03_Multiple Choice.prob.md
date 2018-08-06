@@ -1,4 +1,4 @@
->>Consider the following code segment:
+>><p>Consider the following code segment:</p>
 <pre><code>if (varOne &gt; 0){
   varOne = -varOne;     
 } 
