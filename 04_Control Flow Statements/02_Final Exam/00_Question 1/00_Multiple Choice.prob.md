@@ -7,8 +7,8 @@ is equivalent to which of the following? <<
 <code>!(varOne &lt; varTwo) &amp;&amp; !(varOne &gt; varTwo)</code><br/>
 = <code>(varOne &gt;= varTwo) &amp;&amp; (varOne &lt;= varTwo)</code><br/>
 = <code>varOne == varTwo</code> (because <code>varOne</code> cannot be smaller and bigger than <code>varTwo</code>, meaning <code>varOne</code> has to equal <code>varTwo</code>)</p>}}
-( ) <code>varOne != varTwo</code> {{Incorrect because the expression evaluates to <code>varOne == varTwo</code>. View the step-by-step solution for the question by selecting the correct answer, <code>varOne == varTwo</code>.}}
-( ) <code>!((varOne &lt; varTwo) &amp;&amp; (varOne &gt; varTwo))</code> {{Incorrect because the expression evaluates to <code>varOne == varTwo</code>. View the step-by-step solution for the question by selecting the correct answer, <code>varOne == varTwo</code>.}}
+( ) <code>varOne != varTwo</code> {{Incorrect because the expression evaluates to <code>varOne == varTwo</code>. View the step-by-step solution above.}}
+( ) <code>!((varOne &lt; varTwo) &amp;&amp; (varOne &gt; varTwo))</code> {{Incorrect because the expression evaluates to <code>varOne == varTwo</code>.  View the step-by-step solution above.}}
 ( ) <code>true</code> {{Incorrect because the expression does not always evaluate to true.}}
 ( ) <code>false</code> {{Incorrect because the expression does not always evaluate to false.}}
 

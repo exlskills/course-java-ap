@@ -8,8 +8,8 @@
 </code></pre>
 <p>Which of the following is printed as a result of the call <code>methodOne(123456)</code>? </p><<
 
-( ) 16 {{Incorrect because "123456" is printed. View the step-by-step solution for the question by selecting the correct answer, "123456".}}
-( ) 56 {{Incorrect because "123456" is printed. View the step-by-step solution for the question by selecting the correct answer, "123456".}}
+( ) 16 {{Incorrect because "123456" is printed. View the step-by-step solution below.}}
+( ) 56 {{Incorrect because "123456" is printed. View the step-by-step solution below.}}
 (x) 123456 {{Correct because it accurately represents what the recursive method above prints. 
 <p>The process is shown below. Use the comments to guide you through each step:</p>
 <p>methodOne(123456)<br/>
@@ -37,7 +37,7 @@
 <code>methodOne(paramOne/10)</code> // not executed<br/>
 <code>System.out.println(paramOne % 10);</code> // prints "1" (STEP 11)</p>
 <p>Therefore, "123456" is printed after <code>methodOne(123456)</code> is executed.</p>}}
-( ) 654321 {{Incorrect because "123456" is printed. View the step-by-step solution for the question by selecting the correct answer, "123456".}}
-( ) An infinite number of digits will be printed due to infinite recursion. {{Incorrect because "123456" is printed. View the step-by-step solution for the question by selecting the correct answer, "123456".}}
+( ) 654321 {{Incorrect because "123456" is printed. View the step-by-step solution above.}}
+( ) An infinite number of digits will be printed due to infinite recursion. {{Incorrect because "123456" is printed. View the step-by-step solution above.}}
 
 ||<code>methodOne()</code> is called a total of 5 times after the initial call.||

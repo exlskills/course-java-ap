@@ -16,7 +16,7 @@
 </code></pre>
 <p>Assume that <code>selectionSort</code> is called with the array {6, 3, 2, 5, 4, 1}. What will the value of <code>paramOne</code> be after three passes of the outer loop (i.e., when j = 2 at the point indicated by /* End of outer loop */)?</p><<
 
-( ) {1, 2, 3, 4, 5, 6} {{Incorrect because the array shouldn't be fully sorted after three passes of the outer loop. View the step-by-step solution for the question by selecting the correct answer, {1,2,3,5,4,6}.}}
+( ) {1, 2, 3, 4, 5, 6} {{Incorrect because the array shouldn't be fully sorted after three passes of the outer loop. View the step-by-step solution below.}}
 (x) {1, 2, 3, 5, 4, 6} {{Correct because it accurately represents what the array will be when j = 2 at the point indicated by /* End of outer loop &#42;/. <p>The process is shown below. Use the comments to guide you through each step:</p> 
 <p>When j = 0,<br/>
 <code>int m = j;</code> // int m = 0<br/>
@@ -42,8 +42,8 @@
 <code>paramOne[m] = paramOne[j];</code> // paramOne[2] = 3, which doesn't change anything as paramOne[2] was already equal to 3.<br/>
 <code>paramOne[j] = temp;</code> // paramOne[2] = 3, which doesn't change anything as paramOne[2] was already equal to 3<br/>
 <code>/* End of outer loop */</code> // paramOne is still {1,2,3,5,4,6}</p> <p>Therefore, <code>paramOne</code> will be {1,2,3,5,4,6} when j = 2 at <code>/* End of outer loop */</code>.</p>}}
-( ) {1, 2, 3, 6, 5, 4} {{Incorrect because the array should look like {1, 2, 3, 5, 4, 6} after three passes of the loop. View the step-by-step solution for the question by selecting the correct answer, {1,2,3,5,4,6}.}}
-( ) {1, 3, 2, 4, 5, 6} {{Incorrect because the array should look like {1, 2, 3, 5, 4, 6} after three passes of the loop. View the step-by-step solution for the question by selecting the correct answer, {1,2,3,5,4,6}.}}
-( ) {1, 3, 2, 5, 4, 6} {{Incorrect because the array should look like {1, 2, 3, 5, 4, 6} after three passes of the loop. View the step-by-step solution for the question by selecting the correct answer, {1,2,3,5,4,6}.}}
+( ) {1, 2, 3, 6, 5, 4} {{Incorrect because the array should look like {1, 2, 3, 5, 4, 6} after three passes of the loop. View the step-by-step solution above.}}
+( ) {1, 3, 2, 4, 5, 6} {{Incorrect because the array should look like {1, 2, 3, 5, 4, 6} after three passes of the loop. View the step-by-step solution above.}}
+( ) {1, 3, 2, 5, 4, 6} {{Incorrect because the array should look like {1, 2, 3, 5, 4, 6} after three passes of the loop. View the step-by-step solution above.}}
 
 ||Selection sort finds the smallest value in the array as it proceeds and switches them to the front end of the array. ||
