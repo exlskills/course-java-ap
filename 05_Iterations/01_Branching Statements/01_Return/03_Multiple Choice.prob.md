@@ -14,10 +14,10 @@
 }
 </code></pre><<
 
-( ) <code>int</code> {{Incorrect because the method returns a <code>char</code> value.}}
-(x) <code>char</code> {{Correct because <code>return 'A'</code> clearly shows that the return type of this method is <code>char</code> value.}}
-( ) <code>boolean</code> {{Incorrect because the method returns a <code>char</code> value.}}
-( ) <code>double</code> {{Incorrect because the method returns a <code>char</code> value.}}
-( ) <code>void</code> {{Incorrect because the method returns a value.}}
+( ) <pre><code>int</code></pre> {{Incorrect because the method returns a <code>char</code> value.}}
+(x) <pre><code>char</code></pre> {{Correct because <code>return 'A'</code> clearly shows that the return type of this method is <code>char</code> value.}}
+( ) <pre><code>boolean</code></pre> {{Incorrect because the method returns a <code>char</code> value.}}
+( ) <pre><code>double</code></pre> {{Incorrect because the method returns a <code>char</code> value.}}
+( ) <pre><code>void</code></pre> {{Incorrect because the method returns a value.}}
 
 ||Which data type uses single quotation marks? ||
