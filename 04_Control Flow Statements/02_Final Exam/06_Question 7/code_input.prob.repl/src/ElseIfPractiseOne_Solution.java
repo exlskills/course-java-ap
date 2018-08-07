@@ -1,4 +1,5 @@
 package exlcode;
+
 public class ElseIfPractiseOne_Solution{
   public int totalSum(int paramOne, int paramTwo, int paramThree) {
     if (paramOne == 13){

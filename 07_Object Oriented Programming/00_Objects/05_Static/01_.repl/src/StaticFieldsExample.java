@@ -1,6 +1,5 @@
 package exlcode;
 
-
 public class StaticFieldsExample {
 
   public static void main(String[] args) {

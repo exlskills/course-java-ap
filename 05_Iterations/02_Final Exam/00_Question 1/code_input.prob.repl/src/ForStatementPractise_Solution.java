@@ -1,4 +1,5 @@
 package exlcode;
+
 public class ForStatementPractise_Solution{
   public boolean checkE(String paramOne) {
     int counter = 0;

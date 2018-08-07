@@ -1,4 +1,5 @@
 package exlcode;
+
 public class ElseIfPractiseTwo_Solution{
   public int closeToTen(int paramOne, int paramTwo) {
     int varOne = Math.abs(paramOne - 10);

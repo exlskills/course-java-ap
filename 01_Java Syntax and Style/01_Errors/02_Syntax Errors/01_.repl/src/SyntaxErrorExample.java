@@ -1,4 +1,5 @@
 package exlcode;
+
 public class SyntaxErrorExample {
     /*
     // public cannot be capitalized

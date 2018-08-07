@@ -1,4 +1,5 @@
 package exlcode;
+
 public class ToStringPractise_Solution{
   public boolean detectOne(int paramOne) {
     // converts paramOne to a String and assigns it to varOne

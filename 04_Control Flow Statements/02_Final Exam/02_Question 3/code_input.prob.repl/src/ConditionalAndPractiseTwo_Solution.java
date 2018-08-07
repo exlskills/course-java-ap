@@ -1,4 +1,5 @@
 package exlcode;
+
 public class ConditionalAndPractiseTwo_Solution{
   public boolean partyBalloons(int numberOfBalloons, boolean isWeekend) {
     // stores whether or not number of balloons is between 40 and 60

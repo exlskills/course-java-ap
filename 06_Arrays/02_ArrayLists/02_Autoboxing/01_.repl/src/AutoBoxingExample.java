@@ -1,6 +1,5 @@
 package exlcode;
 
-
 import java.util.ArrayList;
 
 public class AutoBoxingExample {

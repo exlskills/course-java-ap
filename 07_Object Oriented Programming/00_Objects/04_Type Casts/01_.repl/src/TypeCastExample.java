@@ -1,7 +1,5 @@
 package exlcode;
 
-
-
 public class TypeCastExample {
 
   public static void main(String[] args) {

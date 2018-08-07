@@ -1,4 +1,5 @@
 package exlcode;
+
 public class ConditionalOrPractise_Solution{
   public int luckyNumbers(int paramOne, int paramTwo, int paramThree) {
     // checks whether or not all three parameters have the same value

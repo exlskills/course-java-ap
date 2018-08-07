@@ -1,4 +1,5 @@
 package exlcode;
+
 public class OneDArrayLengthPractiseTwo_Solution{
   public boolean commonStartEnd(int[] paramOne, int[] paramTwo) {
     boolean varOne = (paramOne[0] == paramTwo[0]); // checks to see if the first element of the arrays are the same

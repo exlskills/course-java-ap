@@ -1,4 +1,5 @@
 package exlcode;
+
 public class OneDArrayLengthPractiseOne_Solution{
   public boolean firstOrLastSix(int[] paramOne) {
     int varOne = paramOne.length - 1; // varOne now holds the last index of the array

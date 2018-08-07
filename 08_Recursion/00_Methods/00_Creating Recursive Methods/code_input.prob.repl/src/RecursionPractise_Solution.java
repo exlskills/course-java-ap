@@ -1,4 +1,5 @@
 package exlcode;
+
 public class RecursionPractise_Solution{
   public int powerOfNum(int paramOne, int paramTwo) {
     // base case 

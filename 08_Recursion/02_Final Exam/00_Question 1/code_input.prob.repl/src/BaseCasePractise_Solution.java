@@ -1,4 +1,5 @@
 package exlcode;
+
 public class BaseCasePractise_Solution{
   public int multipleOfTwo(int paramOne) {
     // base case

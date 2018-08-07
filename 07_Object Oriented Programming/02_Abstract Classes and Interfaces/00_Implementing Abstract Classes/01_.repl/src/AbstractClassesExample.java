@@ -1,6 +1,5 @@
 package exlcode;
 
-
 public class AbstractClassesExample extends AbstractClassTest {
 
   public static void main(String[] args) {

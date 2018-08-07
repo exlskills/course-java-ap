@@ -1,4 +1,5 @@
 package exlcode;
+
 public class ConditionalAndPractiseOne_Solution{
   public int weirdSum(int paramOne, int paramTwo) {
     int varOne = paramOne + paramTwo;

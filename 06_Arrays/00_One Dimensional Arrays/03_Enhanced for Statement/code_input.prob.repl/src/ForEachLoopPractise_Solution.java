@@ -1,4 +1,5 @@
 package exlcode;
+
 class ForEachLoopPractise_Solution{
   public int returnArray(int[] paramOne){
     int sum = 0;

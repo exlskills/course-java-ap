@@ -1,6 +1,5 @@
 package exlcode;
 
-
 public class ObjectTest {
 
   private String exampleVariableOne;

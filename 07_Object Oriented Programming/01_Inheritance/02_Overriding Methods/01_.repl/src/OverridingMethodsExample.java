@@ -1,6 +1,5 @@
 package exlcode;
 
-
 public class OverridingMethodsExample {
 
   public static void main(String[] args) {

@@ -1,6 +1,5 @@
 package exlcode;
 
-
 public class ObjectEqualityExample {
 
   public static void main(String[] args) {

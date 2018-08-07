@@ -1,4 +1,5 @@
 package exlcode;
+
 public class RelationalOperatorPractiseTwo_Solution{
   public boolean multipleOfThree(int paramOne) {
     // modulus operator returns remainder between paramOne and 3
