@@ -1,6 +1,6 @@
 # EXLskills AP® Computer Science A (Java) Course
 
-This is the EXLskills free and open-source AP® (Advanced Placement®) Java Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of Java, to a moderate level of essential coding proficiency. It is a susbstantial amount of coursework that represents a typical year of high school-level study or a semester of a University computer science course.
+This is the EXLskills free and open-source AP® (Advanced Placement®) Java Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of Java, to a moderate level of essential coding proficiency. It is a substantial amount of coursework that represents a typical year of high school-level study or a semester of a University computer science course.
 
 This course may also be used to prepare for the AP® Computer Science A exam.
 
@@ -22,7 +22,7 @@ All contributions in the form of pull-requests and issues are welcome and greatl
 
 ## Translations
 
-We are always working on translating this course to other languages to make it accessible to as many people around the world as we can. To open work on a new language, please create an issue in this repository for the maintainers to guage interest and we will start a translation branch.
+We are always working on translating this course to other languages to make it accessible to as many people around the world as we can. To open work on a new language, please create an issue in this repository for the maintainers to gauge interest and we will start a translation branch.
 
 ## License
 
