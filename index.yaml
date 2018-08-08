@@ -6,7 +6,7 @@ course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/ap-java-
 language: en
 est_minutes: 3600
 primary_topic: Java
-repo_url: https://github.com/exlskills/ap-java-course
+repo_url: https://github.com/exlskills/course-java-ap
 topics:
   - Java
   - AP
