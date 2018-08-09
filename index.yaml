@@ -4,7 +4,7 @@ org: EXLskills
 course: ap_java
 course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/ap-java-course.jpg
 language: en
-est_minutes: 3600
+est_minutes: 1800
 primary_topic: Java
 repo_url: https://github.com/exlskills/course-java-ap
 topics:
