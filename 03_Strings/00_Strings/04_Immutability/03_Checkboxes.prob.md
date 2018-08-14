@@ -1,4 +1,4 @@
->>Which of the following statements are INCORRECT? <<
+>>Which of the following statements are CORRECT? <<
 
 [x] <code>String</code> is a class {{ selected: Correct because <code>String</code> is a class that exists in the <code>java.lang</code> package.}, { unselected: Correct because <code>String</code> is a class that exists in the <code>java.lang</code> package.}}
 [ ] Strings are mutable {{ selected: Incorrect because Strings are immutable.}, { unselected: Incorrect because Strings are immutable.}}
