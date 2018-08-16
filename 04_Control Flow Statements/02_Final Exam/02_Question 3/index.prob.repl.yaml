@@ -4,9 +4,10 @@ src_path: code_input.prob.repl/src
 test_path: code_input.prob.repl/test
 tmpl_path: code_input.prob.repl/tmpl
 tests:
- - "javac /workspace/src/main/java/exlcode/ConditionalAndPracticeTwo.java -d ."
- - "cd /workspace/src/main/java/exlcode/"
- - "javac -cp .:/exlcode/testing/java/junit/junit-4.12.jar ConditionalAndPracticeTwo_Test.java -d ."
- - "java -cp .:/exlcode/testing/java/junit/junit-4.12.jar:/exlcode/testing/java/junit/hamcrest-core-1.3.jar org.junit.runner.JUnitCore exlcode.ConditionalAndPracticeTwo_Test"
+  junit:
+    - "javac /workspace/src/main/java/exlcode/ConditionalAndPracticeTwo.java -d ."
+    - "cd /workspace/src/main/java/exlcode/"
+    - "javac -cp .:/exlcode/testing/java/junit/junit-4.12.jar ConditionalAndPracticeTwo_Test.java -d ."
+    - "java -cp .:/exlcode/testing/java/junit/junit-4.12.jar:/exlcode/testing/java/junit/hamcrest-core-1.3.jar org.junit.runner.JUnitCore exlcode.ConditionalAndPracticeTwo_Test"
 display:
   height: 500px
