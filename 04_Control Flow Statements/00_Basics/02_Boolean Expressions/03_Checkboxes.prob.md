@@ -1,7 +1,12 @@
 >>Given three variables and their values below, which of the following boolean expressions evaluate to true?
-<code>boolean varOne = false;</code>
-<code>int varTwo  = 2;</code>
-<code>int varThree = 20;</code> <<
+
+```
+boolean varOne = false;
+int varTwo  = 2;
+int varThree = 20;
+```
+
+<<
 
 [x] <pre><code>varThree &gt; Two</code></pre> {{ selected: Correct because 20 is greater than 2.}, { unselected: Correct because 20 is greater than 2.}}
 [ ] <pre><code>varTwo &gt; varThree</code></pre> {{ selected: Incorrect because 2 is not greater than 20.}, { unselected: Incorrect because 2 is not greater than 20.}}

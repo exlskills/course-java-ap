@@ -1,5 +1,9 @@
 >>Assume that <code>varOne</code> and <code>varTwo</code> are integers. The expression:
-<code><br/>!(varOne &lt; varTwo) &amp;&amp; !(varOne &gt; varTwo)<br/></code>
+
+```
+!(varOne &lt; varTwo) &amp;&amp; !(varOne &gt; varTwo)
+```
+
 is equivalent to which of the following? <<
 
 (x) <pre><code>varOne == varTwo</code></pre> {{Correct because the negation of the "AND" statement and the '&gt;' and '&lt;' lead to the statement <code>varOne == varTwo</code>.

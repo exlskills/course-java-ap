@@ -1,5 +1,7 @@
 >>Consider the following code segment:
-<pre><code>char varOne = 'a';
+
+```
+char varOne = 'a';
 switch (varOne){
   case 'a':
   case 'A':
@@ -16,8 +18,10 @@ switch (varOne){
   case 'd';
   case 'D':
     System.out.print(varOne);
-</code></pre>
-<p>What is printed as a result of executing this code segment?</p> <<
+}
+```
+
+What is printed as a result of executing this code segment?<<
 
 (x) a {{Correct because <code>case 'a'</code> does not have a <code>break;</code> statement, so the statements under <code>case 'A'</code> will be executed.}}
 ( ) aa {{Incorrect because the <code>break;</code> statement under <code>case 'A'</code> will cause the program to exit the switch statement.}}

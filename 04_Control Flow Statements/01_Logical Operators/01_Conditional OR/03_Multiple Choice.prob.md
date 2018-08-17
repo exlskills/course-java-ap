@@ -1,5 +1,7 @@
 >>Consider the following code segment:
-<pre><code>public static void exampleMethod(int paramOne, int paramTwo)
+
+```
+public static void exampleMethod(int paramOne, int paramTwo)
 {
   if ((paramOne &gt; 0) &amp;&amp; (paramTwo &gt; 0)) {
     if (paramOne &gt; paramTwo){
@@ -19,8 +21,9 @@
     System.out.println("E");
   }
 }
-</code></pre>
-<p>What is printed as a result of executing <code>exampleMethod(3,-2)</code>?</p><<
+```
+
+What is printed as a result of executing <code>exampleMethod(3,-2)</code>?<<
 
 ( ) A {{Incorrect because <code>paramTwo</code> is less than zero, causing the whole boolean expression in the <code>if</code> statement to be false.}}
 ( ) B {{Incorrect because <code>paramTwo</code> is less than zero, causing the whole boolean expression in the <code>if</code> statement to be false.}}

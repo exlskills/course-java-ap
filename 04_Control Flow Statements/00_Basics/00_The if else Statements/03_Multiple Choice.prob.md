@@ -1,12 +1,15 @@
 >>Consider the following code segment:
-<pre><code>if (varOne &gt; 0){
-  varOne = -varOne;     
-} 
-if (varOne &lt; 0){
- varOne = 0;    
+
+```
+if (varOne &gt; 0){
+  varOne = -varOne;
 }
-</code></pre>
-<p>Which of the following is this code segment equivalent to?</p><<
+if (varOne &lt; 0){
+ varOne = 0;
+}
+```
+
+Which of the following is this code segment equivalent to?<<
 
 +( )
 
