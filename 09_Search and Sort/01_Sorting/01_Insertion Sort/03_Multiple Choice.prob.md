@@ -1,5 +1,7 @@
 >>Consider the following insertion sort method:
-<pre><code>public void insertionSort(int[] paramOne){
+
+```
+public void insertionSort(int[] paramOne){
   for (int j = 1; j &lt; paramOne.length; j++)
   {
     int insertItem = paramOne[j];
@@ -13,9 +15,9 @@
     /* end of for loop */
   }
 }
-</code></pre>
-<p>Assume that <code>insertionSort</code> is called with the array {5,4,3,2,1}.
-What will the value of <code>paramOne</code> be after two passes of the outer loop (i.e., when j = 2 at the point indicated by /* End of outer loop */)?</p><<
+```
+
+<p>Assume that <code>insertionSort</code> is called with the array {5,4,3,2,1}. What will the value of <code>paramOne</code> be after two passes of the outer loop (i.e., when j = 2 at the point indicated by /* End of outer loop */)?</p><<
 
 ( ) {5, 3, 4, 2, 1} {{Incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. View the step-by-step solution below.}}
 ( ) {3, 5, 2, 3, 1} {{Incorrect because {3,4,5,2,1} is the value of <code>paramOne</code> after two passes of the loop. View the step-by-step solution below.}}

@@ -1,5 +1,7 @@
 >>Consider the following selection sort method:
-<pre><code>public void selectionSort(int[] paramOne){
+
+```
+public void selectionSort(int[] paramOne){
   for (int j = 0; j &lt; paramOne.length-1; j++){
     int m = j;
     for (int k = j + 1; k &lt; paramOne.length; k++){
@@ -13,7 +15,8 @@
     /* End of outer loop */
   }
 }
-</code></pre>
+```
+
 <p>Assume that <code>selectionSort</code> is called with the array {6, 3, 2, 5, 4, 1}. What will the value of <code>paramOne</code> be after three passes of the outer loop (i.e., when j = 2 at the point indicated by /* End of outer loop */)?</p><<
 
 ( ) {1, 2, 3, 4, 5, 6} {{Incorrect because the array shouldn't be fully sorted after three passes of the outer loop. View the step-by-step solution below.}}
