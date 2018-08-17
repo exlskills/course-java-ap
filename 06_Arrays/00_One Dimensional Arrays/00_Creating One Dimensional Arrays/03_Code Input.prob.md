@@ -7,8 +7,8 @@
 <pre><code>int[] varOne = {1, 2};</code>
 <code>int[] varTwo = {3, 4};</code>
 <code>int[] varThree = {0, 3};</code></pre>
-<code>compareArr(varOne, varTwo)</code> should return <code>varTwo</code>
-<code>compareArr(varTwo, varOne)</code> should return <code>varTwo</code>
+<code>compareArr(varOne, varTwo)</code> should return <code>varTwo</code><br/>
+<code>compareArr(varTwo, varOne)</code> should return <code>varTwo</code><br/>
 <code>compareArr(varThree, varOne)</code> should return <code>varThree</code></p>
 <p>Assume that the length of the array will always be two. </p><<
 

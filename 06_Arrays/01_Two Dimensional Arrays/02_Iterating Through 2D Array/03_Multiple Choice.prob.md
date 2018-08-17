@@ -1,5 +1,7 @@
 >>A two dimensional array, paramOne, holds integer values ranging from 1 to 10. Consider the following method:
-<pre><code>public int exampleMethod(int[][] paramOne) 
+
+```
+public int exampleMethod(int[][] paramOne) 
 {
   int row;
   int column;
@@ -16,8 +18,9 @@
   }
   return max;
 }
-</code></pre>
-<p>What does this method compute?</p><<
+```
+
+What does this method compute?<<
 
 (x) The maximum value in <code>paramOne</code>. {{Correct because the method loops through all the elements of <code>paramOne</code> to determine the largest value by comparing them to <code>max</code>.}}
 ( ) The column with the greatest value. {{Incorrect because the method does not return the index of a column.}}

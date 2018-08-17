@@ -1,5 +1,7 @@
 >>Consider the following code segment:
-<pre><code>ArrayList&lt;String&gt; varOne = new ArrayList&lt;String&gt;();
+
+```
+ArrayList&lt;String&gt; varOne = new ArrayList&lt;String&gt;();
 varOne.add("Java");
 varOne.add("C++");
 varOne.add("Python");
@@ -7,8 +9,9 @@ varOne.set(2, "HTML");
 varOne.add(1, "JavaScript");
 varOne.remove(3);
 System.out.println(varOne);
-</code></pre>
-<p>What is printed as a result of executing the code segment?</p><<
+```
+
+What is printed as a result of executing the code segment?<<
 
 (x) [Java, JavaScript, C++] {{Correct because it accurately represents how the <code>ArrayList</code> methods change the <code>ArrayList</code>. 
 <p>The process is shown below. Use the comments to guide you through each step:</p> <code>ArrayList varOne = new ArrayList();</code><br/>// varOne now looks like this: []<br/> <code>varOne.add("Java");</code><br/> // varOne now looks like this: [Java]<br/> <code>varOne.add("C++");</code><br/> // varOne now looks like this: [Java, C++]<br/><code>varOne.add("Python");</code><br/> // varOne now looks like this: [Java, C++, Python]<br/><code>varOne.set(2, "HTML");</code><br/> // varOne now looks like this: [Java, C++, HTML]<br/><code>varOne.add(1, "JavaScript");</code><br/> // varOne now looks like this: [Java, JavaScript, C++, HTML]<br/><code>varOne.remove(3);</code><br/> // varOne now looks like this: [Java, JavaScript, C++] <p>Therefore, "[Java, JavaScript, C++]" is printed. Note that <code>ArrayList</code> can be printed directly to the console unlike arrays.</p>}}

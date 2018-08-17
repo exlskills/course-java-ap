@@ -1,5 +1,9 @@
 >>Assume that an array of integer values has been declared as follows and has been initialized.
-<code>int[] varOne = new int[10];</code>
+
+```
+int[] varOne = new int[10];
+```
+
 Which of the following code segments correctly interchanges the value of <code>varOne[0]</code> and <code>varOne[5]</code>? <<
 
 +( )
