@@ -13,10 +13,48 @@
 }
 </code></pre> <<
 
-( ) <pre><code>minutes = flightTime % 60;</code></pre> {{Incorrect because the <code>hours</code> variable is not touched and remains at 0.}}
-(x) <pre><code>hours = hours + flightTime / 60;<br/>minutes = flightTime % 60; </code></pre> {{Correct because <code>hours = hours + flightTime / 60</code> accurately returns the number of hours by truncating the decimal and <code>minutes = flightTime%60</code> accurately returns the number of minutes by taking the remainder of the division.}}
-( ) <pre><code>hours = hours + flightTime % 60;<br/>minutes = flightTime / 60; </code></pre> {{Incorrect because the wrong arithmetic operators are used when calculating <code>hours</code> and <code>minutes</code>.}}
-( ) <pre><code>minutes = flightTime + flightTime % 60;</code></pre> {{Incorrect because the <code>hours</code> variable is not touched and remains at 0. Also, <code>minutes</code> will become a larger value than <code>flightTime</code>, which does not make sense.}}
-( ) <pre><code>hours = flightTime / 60;</code></pre> {{Incorrect because the <code>minutes</code> variable is not touched and remains at 0.}}
++( )
 
-||Mathematically, how can you get the number of hours from number that only represents minutes? ||
+<pre><code>minutes = flightTime % 60;</code></pre> 
+
+{{Incorrect because the <code>hours</code> variable is not touched and remains at 0.}}
+
+-( )
+
++(x)
+
+<pre><code>hours = hours + flightTime / 60;
+minutes = flightTime % 60;
+</code></pre> 
+
+{{Correct because <code>hours = hours + flightTime / 60</code> accurately returns the number of hours by truncating the decimal and <code>minutes = flightTime%60</code> accurately returns the number of minutes by taking the remainder of the division.}}
+
+-(x)
+
++( )
+
+<pre><code>hours = hours + flightTime % 60;
+minutes = flightTime / 60; 
+</code></pre> 
+
+{{Incorrect because the wrong arithmetic operators are used when calculating <code>hours</code> and <code>minutes</code>.}}
+
+-( )
+
++( )
+
+<pre><code>minutes = flightTime + flightTime % 60;</code></pre> 
+
+{{Incorrect because the <code>hours</code> variable is not touched and remains at 0. Also, <code>minutes</code> will become a larger value than <code>flightTime</code>, which does not make sense.}}
+
+-( )
+
++( )
+
+<pre><code>hours = flightTime / 60;</code></pre> 
+
+{{Incorrect because the <code>minutes</code> variable is not touched and remains at 0.}}
+
+-( )
+
+||Mathematically, how can you get the number of hours from a number that only represents minutes? ||
