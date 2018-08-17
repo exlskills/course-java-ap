@@ -1,13 +1,16 @@
 >>Consider the following code segment:
-<pre><code>private int calculate (int paramOne){
+
+```
+private int calculate (int paramOne){
   if (paramOne &lt;= 1){
     return 1;
   } else {
     return paramOne * calculate(paramOne - 2);
   }
 }
-</code></pre>
-<p>Which of the following is printed as a result of the call <code>calculate(5)</code>?</p><<
+```
+
+Which of the following is printed as a result of the call <code>calculate(5)</code>?<<
 
 ( ) 1 {{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. View the step-by-step solution below.}}
 ( ) 10{{Incorrect because 15 is printed after <code>calculate(5)</code> is executed. View the step-by-step solution below.}}

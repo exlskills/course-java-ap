@@ -1,5 +1,7 @@
 >>Consider the following code segment:
-<pre><code>public class ExampleClass{
+
+```
+public class ExampleClass{
   public void calculateNum(int paramOne){
     /* implementations not shown */
   }
@@ -10,25 +12,34 @@
     /* implementations not shown */
   }
 }
-</code></pre>
+```
+
 <p>Which of the following methods can be added to <code>ExampleClass</code> without causing a compile-time error?</p>
 <p>I.</p>
-<pre><code>public void calculateNum(int paramThree){
+
+```
+public void calculateNum(int paramThree){
   /* implementation not shown */
 }
-</code></pre>
-<p>
-II.</p>
-<pre><code>public void calculateNum(String paramOne, int paramTwo){
+```
+
+<p>II.</p>
+
+```
+public void calculateNum(String paramOne, int paramTwo){
   /* implementation not shown */
 }
-</code></pre>
-<p>
-III.</p>
-<pre><code>public void calculateNum(int paramOne, int paramTwo, String paramThree){
+```
+
+<p>III.</p>
+
+```
+public void calculateNum(int paramOne, int paramTwo, String paramThree){
   /* implementation not shown */
 }
-</code></pre> <<
+```
+
+<<
 
 ( ) I only {{Incorrect because the method in I would not work as <code>ExampleClass</code> already has a <code>calculateNum</code> method with one <code>int</code> parameter.}}
 ( ) I and II only {{Incorrect because the method in I would not work as <code>ExampleClass</code> already has a <code>calculateNum</code> method with one <code>int</code> parameter.}}

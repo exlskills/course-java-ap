@@ -1,12 +1,15 @@
 >>Consider the following code segment:
-<pre><code>public void methodOne (int paramOne){
+
+```
+public void methodOne (int paramOne){
   if ((paramOne / 10) != 0){
     methodOne (paramOne / 10);
   }
   System.out.println(paramOne % 10);
 }
-</code></pre>
-<p>Which of the following is printed as a result of the call <code>methodOne(123456)</code>? </p><<
+```
+
+Which of the following is printed as a result of the call <code>methodOne(123456)</code>?<<
 
 ( ) 16 {{Incorrect because "123456" is printed. View the step-by-step solution below.}}
 ( ) 56 {{Incorrect because "123456" is printed. View the step-by-step solution below.}}
