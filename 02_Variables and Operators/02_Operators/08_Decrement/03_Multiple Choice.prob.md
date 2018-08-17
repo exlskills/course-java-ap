@@ -1,10 +1,13 @@
 >>Consider the following code segment:
-<pre><code>int varOne = 0;
+
+```
+int varOne = 0;
 int varTwo = 10;
 varOne = --varTwo;
-System.out.println("varOne: " + varOne + " varTwo: " + varTwo)
-</code></pre>
-<p>What is printed as a result of executing this code segment?</p><<
+System.out.println("varOne: " + varOne + " varTwo: " + varTwo);
+```
+
+What is printed as a result of executing this code segment?<<
 
 ( ) varOne: 9 varTwo: 11 {{Incorrect because the value of <code>varTwo</code> cannot increase from any of the statements above.}}
 ( ) varOne: 0 varTwo: 9 {{Incorrect because the value of <code>varOne</code> changes to 9.}}

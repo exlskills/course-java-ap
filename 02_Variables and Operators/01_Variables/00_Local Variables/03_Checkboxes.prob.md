@@ -1,5 +1,7 @@
 >>Which variables in the following code segment are local variables?
-<pre><code>public class TestClass()
+
+```
+public class TestClass()
 {
   int varOne = 100;
   int varTwo = 25;
@@ -18,7 +20,9 @@
     System.out.println(varFour);
   }
 }
-</code></pre> <<
+```
+
+<<
 
 [ ] <pre><code>varOne</code></pre> {{ selected: Incorrect because <code>varOne</code> is declared as a member of the class, making it a field variable.}, { unselected: Incorrect because <code>varOne</code> is declared as a member of the class, making it a field variable.}}
 [ ] <pre><code>varTwo</code></pre> {{ selected: Incorrect because <code>varOne</code> is declared as a member of the class, making it a field variable.}, { unselected: Incorrect because <code>varOne</code> is declared as a member of the class, making it a field variable.}}

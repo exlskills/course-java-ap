@@ -1,8 +1,12 @@
 >>Given the following code segment, what is the value of varTwo?
-<pre><code>double varOne = 9.692;
+
+```
+double varOne = 9.692;
 int varTwo = 12;
 varTwo = (int)varOne;
-</code></pre> <<
+```
+
+<<
 
 ( ) 12 {{Incorrect because this is the initial value of <code>varTwo</code>, <code>(int)varOne</code> does not result in 12.}}
 ( ) 10 {{Incorrect because Java does not round when converting from a <code>double</code> to an <code>int</code> value.}}

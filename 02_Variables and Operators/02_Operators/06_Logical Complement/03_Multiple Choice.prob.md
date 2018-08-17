@@ -1,25 +1,24 @@
 >>Consider the following method:
-<pre><code>public static void exampleMethod()
+
+```
+public static void exampleMethod()
 {
-  if(false)
-  {
+  if(false) {
     System.out.println("False");
   }
-  if(true)
-  {
+  if(true) {
     System.out.println("True");
   }
-  if(!false)
-  {
+  if(!false) {
     System.out.println("Not False");
   }
-  if(!true)
-  {
+  if(!true) {
     System.out.println("Not True");
   }
 }
-</code></pre>
-<p>What is printed when we call <code>exampleMethod()</code>?</p><<
+```
+
+What is printed when we call <code>exampleMethod()</code>?<<
 
 ( ) False {{Incorrect because only expressions that evaluate to true are executed.}}
 ( ) True {{Incorrect because <code>!false</code> also evaluates to true.}}

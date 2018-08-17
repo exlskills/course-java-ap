@@ -1,5 +1,7 @@
 >>Given the fact that variable flightTime is larger that 60, which of the following can be used to replace <code>/* missing code */</code> so that the flightTime can be displayed in hours and minutes?
-<pre><code>public class TestClass()
+
+```
+public class TestClass()
 {
   int flightTime = 130;
   int minutes = 0;
@@ -11,7 +13,9 @@
     System.out.println("The flightTime is " + hours + " hours and " + minutes + " minutes long.");
   }
 }
-</code></pre> <<
+```
+
+<<
 
 +( )
 

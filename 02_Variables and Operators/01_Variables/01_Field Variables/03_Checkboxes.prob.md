@@ -1,5 +1,7 @@
 >>Which variables in the following code segment are field variables?
-<pre><code>public class TestClass()
+
+```
+public class TestClass()
 {
   int varOne = 100;
   int varTwo = 25;
@@ -18,7 +20,9 @@
     System.out.println(varFour);
   }
 }
-</code></pre> <<
+```
+
+<<
 
 [x] <pre><code>varOne</code></pre> {{ selected: Correct because <code>varOne</code> is declared as a member of the class.}, { unselected: Correct because <code>varOne</code> is declared as a member of the class.}}
 [x] <pre><code>varTwo</code></pre> {{ selected: Correct because <code>varTwo</code> is declared as a member of the class.}, { unselected: Correct because <code>varTwo</code> is declared as a member of the class.}}

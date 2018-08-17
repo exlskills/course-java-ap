@@ -1,11 +1,14 @@
 >>Consider the following code segment:
-<pre><code>double varOne; 
-int varTwo = 56; 
-int varThree = 25; 
-varOne = varTwo / varThree; 
+
+```
+double varOne;
+int varTwo = 56;
+int varThree = 25;
+varOne = varTwo / varThree;
 System.out.println(varOne);
-</code></pre>
-<p>What is printed as a result of executing this code segment?</p><<
+```
+
+What is printed as a result of executing this code segment?<<
 
 ( ) 2 {{Incorrect because <code>result</code> is a <code>double</code> value, so it should have a decimal.}}
 (x) 2.0 {{Correct because <code>varTwo</code> and <code>varThree</code> are both integers, so Java will perform integer division and then assign the value to <code>varOne</code>, a <code>double</code> value.}}

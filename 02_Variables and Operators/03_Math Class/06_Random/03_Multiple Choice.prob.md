@@ -1,8 +1,11 @@
 >>Assume that the following variable declarations have been made.
-<pre><code>double varOne = Math.random();
+
+```
+double varOne = Math.random();
 double varTwo;
-</code></pre>
-<p>Which of the following assigns a value to <code>varTwo</code> with the uniform distribution over the range 0.5 &lt;= <code>varTwo</code> &lt; 5.5?</p><<
+```
+
+Which of the following assigns a value to <code>varTwo</code> with the uniform distribution over the range 0.5 &lt;= <code>varTwo</code> &lt; 5.5?<<
 
 ( ) <pre><code>varTwo = varOne + 0.5;</code></pre> {{Incorrect because it returns a random value between 0.5 and 1.5.}}
 ( ) <pre><code>varTwo = varOne + 0.5 * 5.0;</code></pre> {{Incorrect because it returns a random value between 2.5 and 3.5.}}

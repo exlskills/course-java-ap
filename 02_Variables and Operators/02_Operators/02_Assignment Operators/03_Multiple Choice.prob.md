@@ -1,8 +1,13 @@
 >>What is the new value of <code>varOne</code> after the following code is executed?
-<pre><code>int varOne = 12;
+
+```
+int varOne = 12;
 varOne += 5;
 varOne -= 10;
-varOne = 12;</code></pre><<
+varOne = 12;
+```
+
+<<
 
 ( ) 7 {{Incorrect because <code>varOne</code> would equal 12 after the statements are executed. View the step-by-step solution below.}}
 ( ) 19{{Incorrect because <code>varOne</code> would equal 12 after the statements are executed. VView the step-by-step solution below.}}
