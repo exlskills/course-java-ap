@@ -1,8 +1,11 @@
 >>Consider the following code segment:
-<pre><code>String varOne = "Hello World!";
+
+```
+String varOne = "Hello World!";
 System.out.println(varOne.toUpperCase());
-</code></pre>
-<p>What is printed as a result of executing this code segment?</p><<
+```
+
+What is printed as a result of executing this code segment?<<
 
 (x) HELLO WORLD! {{Correct because all the letters are converted to upper case.}}
 ( ) hello world! {{Incorrect because all the letters are converted to lower case.}}

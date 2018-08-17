@@ -1,8 +1,11 @@
 >>Consider the following code segment:
-<pre><code>String varOne = "abc";
+
+```
+String varOne = "abc";
 String varTwo = varOne;
 String varThree = varTwo;
-</code></pre>
+```
+
 <p>After this code is executed, which of the following statements will evaluate to true?</p>
 <p>I.   <code>varOne.equals(varThree)</code><br/>
 II.  <code>varOne == varTwo</code><br/>

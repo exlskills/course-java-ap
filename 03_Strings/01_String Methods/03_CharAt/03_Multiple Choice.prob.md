@@ -1,8 +1,11 @@
 >>Consider the following code segment:
-<pre><code>String varOne = "Hello World!";
+
+```
+String varOne = "Hello World!";
 System.out.println(varOne.charAt(8));
-</code></pre>
-<p>What is printed as a result of executing this code segment?</p><<
+```
+
+What is printed as a result of executing this code segment?<<
 
 ( ) o {{Incorrect because 'o' is the 7th index of "Hello World!".}}
 (x) r {{Correct because the character 'r' exists in the 8th index of "Hello World!".}}

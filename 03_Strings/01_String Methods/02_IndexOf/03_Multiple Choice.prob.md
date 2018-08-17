@@ -1,8 +1,11 @@
 >>Consider the following code segment:
-<pre><code>String varOne = "Hello World!";
+
+```
+String varOne = "Hello World!";
 System.out.println(varOne.indexOf('W'));
-</code></pre>
-<p>What is printed as a result of executing this code segment?</p><<
+```
+
+What is printed as a result of executing this code segment?<<
 
 ( ) 4 {{Incorrect because the 4th index of "Hello World!" is 'o'.}}
 ( ) 5 {{Incorrect because the 5th index of "Hello World!" contains a space.}}
