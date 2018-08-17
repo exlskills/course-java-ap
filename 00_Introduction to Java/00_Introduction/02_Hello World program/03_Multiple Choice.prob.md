@@ -9,7 +9,7 @@
 }
 </code></pre>
 
-{Correct because the program adheres to Java syntax.}}
+{{Correct because the program adheres to Java syntax.}}
 
 -(x)
 
