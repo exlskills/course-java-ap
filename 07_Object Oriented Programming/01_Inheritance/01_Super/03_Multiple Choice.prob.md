@@ -1,5 +1,7 @@
 >>Consider the following class declarations:
-<pre><code>public class Vehicle
+
+```
+public class Vehicle
 {
   private int varOne;
   public Vehicle(){ 
@@ -9,15 +11,16 @@
     varOne = paramOne; 
   }
 }
-</code></pre>
-<pre><code>public class Car extends Vehicle
+
+public class Car extends Vehicle
 {
   public Car(){ 
     super(0); 
   }
 }
-</code></pre>
-<p>Which of the following statements will NOT compile?</p><<
+```
+
+Which of the following statements will NOT compile?<<
 
 ( ) <pre><code>Vehicle vehicleOne = new Vehicle();</code></pre> {{Incorrect because <code>Vehicle</code> has a constructor that takes in no parameters.}}
 ( ) <pre><code>Vehicle vehicleTwo = new Vehicle(5);</code></pre> {{Incorrect because <code>Vehicle</code> also has a constructor that takes an integer as a parameter.}}

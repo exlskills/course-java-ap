@@ -1,26 +1,30 @@
 >>Consider the following class declarations:
-<pre><code>public class Earth {
+
+```
+public class Earth {
   // methods not shown
 }
-</code></pre>
-<pre><code>public class Land extends Earth {
+public class Land extends Earth {
   // methods not shown
 }
-</code></pre>
-<pre><code>public class Ocean extends Earth {
+public class Ocean extends Earth {
   // methods not shown
 }
-</code></pre>
-<pre><code>public class Countries extends Land {
+public class Countries extends Land {
   // methods not shown
 }
-</code></pre>
+```
+
 <p>Also consider the following variable declarations:</p>
-<pre><code>Earth varOne;</code>
-<code>Land varTwo;</code>
-<code>Ocean varThree;</code>
-<code>Countries varFour;</code></pre>
-<p>Which of the following code segments will not result in a compile time error?</p><<
+
+```
+Earth varOne;
+Land varTwo;
+Ocean varThree;
+Countries varFour;
+```
+
+Which of the following code segments will not result in a compile time error?<<
 
 ( ) <pre><code>varTwo = new Ocean();</code></pre> {{Incorrect because <code>Ocean</code> is a subclass of <code>Earth</code>, so a reference to <code>Ocean</code> cannot be assigned to <code>Land</code> object .}}
 ( ) <pre><code>varThree = new Land();</code></pre> {{Incorrect because <code>Land</code> is a subclass of <code>Earth</code>, so a reference to <code>Land</code> cannot be assigned to <code>Ocean</code> object.}}

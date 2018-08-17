@@ -1,8 +1,11 @@
 >>Consider the following code segment:
-<pre><code>ExampleClass exampleClassOne = new ExampleClass();
+
+```
+ExampleClass exampleClassOne = new ExampleClass();
 ExampleClass exampleClassTwo = new ExampleClass();
 ExampleClass exampleClassThree = exampleClassTwo;
-</code></pre>
+```
+
 <p>After this code is executed, which of the following statements will evaluate to TRUE?</p>
 <p>I.   <code>exampleClassOne.equals(exampleClassThree)</code><br/>
 II.  <code>exampleClassOne == exampleClassTwo</code><br/>
