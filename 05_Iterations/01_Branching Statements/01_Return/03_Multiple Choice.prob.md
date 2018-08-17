@@ -1,5 +1,7 @@
 >>Fill in the blank below:
-<pre><code>public static ___ getGrade(double score) {
+
+```
+public static ___ getGrade(double score) {
   if (score &gt;= 90.0)
     return 'A';
   else if (score &gt;= 80.0)
@@ -12,7 +14,9 @@
     return 'F';
   }
 }
-</code></pre><<
+```
+
+<<
 
 ( ) <pre><code>int</code></pre> {{Incorrect because the method returns a <code>char</code> value.}}
 (x) <pre><code>char</code></pre> {{Correct because <code>return 'A'</code> clearly shows that the return type of this method is <code>char</code> value.}}

@@ -1,5 +1,7 @@
 >>Consider the following code segment:
-<pre><code>int varOne = 0;
+
+```
+int varOne = 0;
 for (int count = 0; count &lt; 20; count++)
 {
   varOne ++;
@@ -8,8 +10,9 @@ for (int count = 0; count &lt; 20; count++)
   }
 }
 System.out.println(varOne);
-</code></pre>
-<p>What is printed as a result of executing this code segment?</p><<
+```
+
+What is printed as a result of executing this code segment?<<
 
 ( ) 2 {{Incorrect because 4 is printed. View the step-by-step solution below.}}
 ( ) 3 {{Incorrect because 4 is printed. View the step-by-step solution below.}}

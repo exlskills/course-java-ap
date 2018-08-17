@@ -1,9 +1,13 @@
 >>Consider the following code segment:
-<pre><code>String varOne = "abcdef";
+
+```
+String varOne = "abcdef";
 for (int count = 0; count &lt; varOne.length()-1; count++){
   System.out.print(varOne.substring(count, count+2));
-}</code></pre>
-<p>What is printed as a result of executing this code segment?</p><<
+}
+```
+
+What is printed as a result of executing this code segment?<<
 
 ( ) abcdef {{Incorrect because "abbccddeef" is printed. View the step-by-step solution for the question by selecting the correct answer, "abbccddeef".}}
 ( ) aabbccddeeff {{Incorrect because "abbccddeef" is printed. View the step-by-step solution for the question by selecting the correct answer, "abbccddeef".}}

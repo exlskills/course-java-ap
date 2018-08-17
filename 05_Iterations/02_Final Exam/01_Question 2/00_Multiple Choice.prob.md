@@ -1,5 +1,7 @@
 >>Consider the following code segment:
-<pre><code>int varOne = 24;
+
+```
+int varOne = 24;
 int varTwo = 30;
 while (varTwo != 0){
   int varThree = varOne % varTwo;
@@ -7,8 +9,9 @@ while (varTwo != 0){
   varTwo = varThree;
 }
 System.out.println(varOne);
-</code></pre>
-<p>What is printed as a result of executing the code segment?</p><<
+```
+
+What is printed as a result of executing the code segment?<<
 
 ( ) 0 {{Incorrect because 6 is printed.View the step-by-step solution below.}}
 (x) 6 {{Correct because it accurately represents what the while loop does and the number of times the body of the while loop is executed.
