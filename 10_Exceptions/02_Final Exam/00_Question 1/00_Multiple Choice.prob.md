@@ -1,11 +1,14 @@
 >>Consider the following code segment:
-<pre><code>try {
+
+```
+try {
   System.out.println("Hello" + 1 / 0);
 } catch (ArithmeticException e){
   System.out.print("World");
 }
-</code></pre>
-<p>What is printed as a result of executing this code segment?</p> <<
+```
+
+What is printed as a result of executing this code segment?<<
 
 ( ) Hello {{Incorrect because "1/0" is an example of an <code>ArithmeticException</code>.}}
 (x) World {{Correct because "1 / 0" causes an <code>ArithmeticException</code> and the exception is caught by the <code>catch</code> block, thus printing "World".}}
