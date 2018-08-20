@@ -1,10 +1,10 @@
 >>Consider the following code segment:
 
 ```
-if (varOne &gt; 0){
+if (varOne &#62; 0){
   varOne = -varOne;
 }
-if (varOne &lt; 0){
+if (varOne &#60; 0){
  varOne = 0;
 }
 ```
