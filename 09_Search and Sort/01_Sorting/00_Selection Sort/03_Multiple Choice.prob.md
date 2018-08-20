@@ -2,10 +2,10 @@
 
 ```
 public void selectionSort(int[] paramOne){
-  for (int j = 0; j &lt; paramOne.length-1; j++){
+  for (int j = 0; j &#60; paramOne.length-1; j++){
     int m = j;
-    for (int k = j + 1; k &lt; paramOne.length; k++){
-      if (paramOne[k] &lt; paramOne[m]){
+    for (int k = j + 1; k &#60; paramOne.length; k++){
+      if (paramOne[k] &#60; paramOne[m]){
         m = k;
       }
     }
@@ -24,7 +24,7 @@ public void selectionSort(int[] paramOne){
 <p>When j = 0,<br/>
 <code>int m = j;</code> // int m = 0<br/>
 <code>int k = j + 1</code> // int k = 1<br/>
-<code>if (paramOne[k] &lt; paramOne[m])</code> // Finds a value in the array that is smaller than the value at the index m between m and the last index (in this case, m = 5 because 1 is the smallest value)<br/>
+<code>if (paramOne[k] &#60; paramOne[m])</code> // Finds a value in the array that is smaller than the value at the index m between m and the last index (in this case, m = 5 because 1 is the smallest value)<br/>
 <code>int temp = paramOne[m];</code> // int temp = 1<br/>
 <code>paramOne[m] = paramOne[j];</code> // paramOne[5] = paramOne[0], which changes the fifth index of the array from 1 to 6<br/>
 <code>paramOne[j] = temp;</code> // paramOne[0] = 1, which changes the zeroth index of the array from 6 to 1<br/>
@@ -32,7 +32,7 @@ public void selectionSort(int[] paramOne){
 <p>When j = 1,<br/>
 <code>int m = j;</code> // int m = 1<br/>
 <code>int k = j + 1</code> // int k = 2<br/>
-<code>if (paramOne[k] &lt; paramOne[m])</code> // Finds a value in the array that is smaller than the value at the index m between m and the last index (in this case, m = 2 because 2 is the next smallest value)<br/>
+<code>if (paramOne[k] &#60; paramOne[m])</code> // Finds a value in the array that is smaller than the value at the index m between m and the last index (in this case, m = 2 because 2 is the next smallest value)<br/>
 <code>int temp = paramOne[m];</code> // int temp = 2<br/>
 <code>paramOne[m] = paramOne[j];</code> // paramOne[2] = parmOne[1], which changes the second index of the array from 2 to 3<br/>
 <code>paramOne[j] = temp;</code> // paramOne[1] = 2, which sets the first index of the array from 3 to 2.<br/>
@@ -40,7 +40,7 @@ public void selectionSort(int[] paramOne){
 <p>When j = 2,<br/>
 <code>int m = j;</code> // int m = 2<br/>
 <code>int k = j + 1</code> // int k = 3<br/>
-<code>if (paramOne[k] &lt; paramOne[m])</code> // Finds a value in the array that is smaller than the value at the index m between m and the last index (in this case, m = 2 because 3 is still the smallest value) <br/>
+<code>if (paramOne[k] &#60; paramOne[m])</code> // Finds a value in the array that is smaller than the value at the index m between m and the last index (in this case, m = 2 because 3 is still the smallest value) <br/>
 <code>int temp = paramOne[m];</code> // int temp = 3<br/>
 <code>paramOne[m] = paramOne[j];</code> // paramOne[2] = 3, which doesn't change anything as paramOne[2] was already equal to 3.<br/>
 <code>paramOne[j] = temp;</code> // paramOne[2] = 3, which doesn't change anything as paramOne[2] was already equal to 3<br/>

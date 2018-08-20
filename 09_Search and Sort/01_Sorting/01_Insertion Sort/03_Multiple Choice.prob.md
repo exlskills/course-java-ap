@@ -2,12 +2,12 @@
 
 ```
 public void insertionSort(int[] paramOne){
-  for (int j = 1; j &lt; paramOne.length; j++)
+  for (int j = 1; j &#60; paramOne.length; j++)
   {
     int insertItem = paramOne[j];
     int k = j - 1;
 
-    while (k &gt;= 0 &amp;&amp; insertItem &lt; paramOne[k]){
+    while (k &#62;= 0 &#38;&#38; insertItem &#60; paramOne[k]){
       paramOne[k + 1] = paramOne[k];
       k—-;
     }
@@ -28,7 +28,7 @@ public void insertionSort(int[] paramOne){
 <p>j = 1<br/>
 <code>int insertItem = paramOne[j];</code> // int insertItem = 4<br/>
 <code>int k = j - 1;</code> // int k = 0<br/>
-<code>while (k &gt;= 0 &amp;&amp; insertItem &lt; paramOne[k])</code> // Finds the largest value in the array before index 1 (in this case it will be 5)<br/>
+<code>while (k &#62;= 0 &#38;&#38; insertItem &#60; paramOne[k])</code> // Finds the largest value in the array before index 1 (in this case it will be 5)<br/>
 <code>paramOne[k + 1] = paramOne[k];</code> // paramOne[1] = paramOne[0], which changes the first index of the array from 4 to 5<br/>
 <code>k--;</code> // int k = -1<br/>
 <code>paramOne[k + 1] = insertItem;</code> // paramOne[0] = 4<br/>
@@ -36,7 +36,7 @@ public void insertionSort(int[] paramOne){
 <p>j = 2<br/>
 <code>int insertItem = paramOne[j];</code> // int insertItem = 3<br/>
 <code>int k = j - 1;</code> // int k = 1<br/>
-<code>while (k &gt;= 0 &amp;&amp; insertItem &lt; paramOne[k])</code> // Finds the largest value in the array before index 2 (in this case it will be 5)<br/>
+<code>while (k &#62;= 0 &#38;&#38; insertItem &#60; paramOne[k])</code> // Finds the largest value in the array before index 2 (in this case it will be 5)<br/>
 <code>paramOne[k + 1] = paramOne[k];</code> // paramOne[2] = 5 and paramOne[1] = 4<br/>
 <code>k--;</code> // int k = -1<br/>
 <code>paramOne[k + 1] = insertItem;</code> // paramOne[0] = 3<br/>
