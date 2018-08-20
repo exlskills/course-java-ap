@@ -5,8 +5,8 @@ test_path: code_input.prob.repl/test
 tmpl_path: code_input.prob.repl/tmpl
 tests:
   junit:
-    - "javac /workspace/src/main/java/exlcode/RecursionPractice.java -d ."
     - "cd /workspace/src/main/java/exlcode/"
+    - "javac RecursionPractice.java -d ."
     - "javac -cp .:/exlcode/testing/java/junit/junit-4.12.jar RecursionPractice_Test.java -d ."
     - "java -cp .:/exlcode/testing/java/junit/junit-4.12.jar:/exlcode/testing/java/junit/hamcrest-core-1.3.jar org.junit.runner.JUnitCore exlcode.RecursionPractice_Test"
 display:
