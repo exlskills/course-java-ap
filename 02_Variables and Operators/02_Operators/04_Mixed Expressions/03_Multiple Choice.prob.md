@@ -10,9 +10,9 @@
 = 8+28-0.5 + (-9)<br/>
 = 35.5 + (-9)<br/>
 = 26.5}}
-( ) 64{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. View the step-by-step solution for the question by selecting the correct answer, 26.5.}}
-( ) 39.5{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. View the step-by-step solution for the question by selecting the correct answer, 26.5.}}
-( ) -6.8{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. View the step-by-step solution for the question by selecting the correct answer, 26.5.}}
-( ) 2.5{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. View the step-by-step solution for the question by selecting the correct answer, 26.5.}}
+( ) 64{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. View the step-by-step solution above.}}
+( ) 39.5{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. View the step-by-step solution above.}}
+( ) -6.8{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. View the step-by-step solution above.}}
+( ) 2.5{{Incorrect because <code>varOne</code> will be 26.5 after the expression is evaluated. View the step-by-step solution above.}}
 
 ||What is the order of operations and how does it apply to the expression above? ||
