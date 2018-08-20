@@ -2,16 +2,16 @@
 
 ```
 String varOne = "abcdef";
-for (int count = 0; count &lt; varOne.length()-1; count++){
+for (int count = 0; count &#60; varOne.length()-1; count++){
   System.out.print(varOne.substring(count, count+2));
 }
 ```
 
 What is printed as a result of executing this code segment?<<
 
-( ) abcdef {{Incorrect because "abbccddeef" is printed. View the step-by-step solution for the question by selecting the correct answer, "abbccddeef".}}
-( ) aabbccddeeff {{Incorrect because "abbccddeef" is printed. View the step-by-step solution for the question by selecting the correct answer, "abbccddeef".}}
-( ) abcbcdcdedef {{Incorrect because "abbccddeef" is printed. View the step-by-step solution for the question by selecting the correct answer, "abbccddeef".}}
+( ) abcdef {{Incorrect because "abbccddeef" is printed. View the step-by-step solution below.}}
+( ) aabbccddeeff {{Incorrect because "abbccddeef" is printed. View the step-by-step solution below.}}
+( ) abcbcdcdedef {{Incorrect because "abbccddeef" is printed. View the step-by-step solution below.}}
 (x) abbccddeef {{Correct because it accurately represents what the for loop does and the number of times <code>varOne.substring(count, count+2);</code> is printed on the console.
 <p>The process is shown below:</p>
 When count = 0, <code>varOne.substring(0, 2)</code> = "ab"<br/>

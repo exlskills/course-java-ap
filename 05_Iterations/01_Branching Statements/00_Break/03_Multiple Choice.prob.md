@@ -2,10 +2,10 @@
 
 ```
 int varOne = 0;
-for (int count = 0; count &lt; 20; count++)
+for (int count = 0; count &#60; 20; count++)
 {
   varOne ++;
-  if (varOne &gt; 3){
+  if (varOne &#62; 3){
     break;
   }
 }
@@ -20,16 +20,16 @@ What is printed as a result of executing this code segment?<<
 <p>The process is shown below. Use the comments to guide you through each step:</p>
 <p>When count = 0,<br/>
 <code>varOne++</code> // varOne = 1<br/>
-<code>varOne &gt; 3</code> // results in false</p>
+<code>varOne &#62; 3</code> // results in false</p>
 <p>When count = 1,<br/>
 <code>varOne++</code> // varOne = 2<br/>
-<code>varOne &gt; 3</code> // results in false</p>
+<code>varOne &#62; 3</code> // results in false</p>
 <p>When count = 2,<br/>
 <code>varOne++</code> // varOne = 3<br/>
-<code>varOne &gt; 3</code> // results in false</p>
+<code>varOne &#62; 3</code> // results in false</p>
 <p>When count = 3,<br/>
 <code>varOne++</code> // varOne = 4<br/>
-<code>varOne &gt; 3</code> // results in true<br/>
+<code>varOne &#62; 3</code> // results in true<br/>
 <code>break;</code> // exits the for loop</p>
 <p>Therefore, <code>varOne</code> = 4 and "4" will be printed.</p>}}
 ( ) 5 {{Incorrect because 4 is printed. View the step-by-step solution above.}}

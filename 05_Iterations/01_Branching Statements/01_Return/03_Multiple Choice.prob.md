@@ -2,13 +2,13 @@
 
 ```
 public static ___ getGrade(double score) {
-  if (score &gt;= 90.0)
+  if (score &#62;= 90.0)
     return 'A';
-  else if (score &gt;= 80.0)
+  else if (score &#62;= 80.0)
     return 'B';
-  else if (score &gt;= 70.0)
+  else if (score &#62;= 70.0)
     return 'C';
-  else if (score &gt;= 60.0)
+  else if (score &#62;= 60.0)
     return 'D';
   else
     return 'F';
