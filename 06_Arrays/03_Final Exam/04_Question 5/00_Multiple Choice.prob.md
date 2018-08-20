@@ -33,7 +33,7 @@ What is printed as a result of executing the code segment?<<
 <code>varOne.remove(2);</code><br/>
 // varOne now looks like this: [7, 2]<br/>
 The <code>for</code> statement then adds all the elements of <code>varOne</code>, resulting in 9.</p>}}
-( ) 11 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. View the step-by-step solution below.}}
-( ) 10 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. View the step-by-step solution below.}}
+( ) 11 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. View the step-by-step solution above.}}
+( ) 10 {{Incorrect because the remaining two values in the <code>ArrayList</code> add up to 9. View the step-by-step solution above.}}
 
 ||The <code>for</code> statement at the end simply returns the sum of the elements inside the <code>ArrayList</code>. ||
