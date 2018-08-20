@@ -6,8 +6,8 @@ For example, given:<br/>
 <pre><code>int[] varOne = {1, 2, 3};</code>
 <code>int[] varTwo = {7, 3};</code>
 <code>int[] varThree = {7, 3, 2};</code></pre>
-<code>commonStartEnd(varOne, varTwo)</code> should return true
-<code>commonStartEnd(varTwo, varThree)</code> should return true
+<code>commonStartEnd(varOne, varTwo)</code> should return true<br/>
+<code>commonStartEnd(varTwo, varThree)</code> should return true<br/>
 <code>commonStartEnd(varOne, varThree)</code> should return false</p><<
 
 = #!exl::repl('index.prob.repl.yaml')

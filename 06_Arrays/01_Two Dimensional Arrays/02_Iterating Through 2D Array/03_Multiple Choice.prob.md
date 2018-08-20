@@ -1,17 +1,17 @@
 >>A two dimensional array, paramOne, holds integer values ranging from 1 to 10. Consider the following method:
 
 ```
-public int exampleMethod(int[][] paramOne) 
+public int exampleMethod(int[][] paramOne)
 {
   int row;
   int column;
   int varOne;
   int max = 0;
 
-  for(row = 0; row &lt; paramOne.length; row++) {
-    for(column = 0; column &lt; paramOne[0].length; column++) {
+  for(row = 0; row &#60; paramOne.length; row++) {
+    for(column = 0; column &#60; paramOne[0].length; column++) {
       varOne = paramOne[row][column];
-      if(varOne &gt; max){
+      if(varOne &#62; max){
         max = varOne;
       }
     }

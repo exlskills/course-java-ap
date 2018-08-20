@@ -1,14 +1,14 @@
 >>Consider the following code segment:
 
 ```
-ArrayList&lt;Integer&gt; varOne = new ArrayList&lt;Integer&gt;();
+ArrayList&#60;Integer&#62; varOne = new ArrayList&#60;Integer&#62;();
 int sum = 0;
 varOne.add(7);
 varOne.add(3);
 varOne.add(9);
 varOne.set(1,2);
 varOne.remove(2);
-for(int index = 0; index &lt; varOne.size(); index++){
+for(int index = 0; index &#60; varOne.size(); index++){
   sum += varOne.get(index);
 }
 System.out.println(sum);
