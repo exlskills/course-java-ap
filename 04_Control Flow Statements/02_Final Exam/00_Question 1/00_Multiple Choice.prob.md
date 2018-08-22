@@ -1,7 +1,7 @@
 >>Assume that <code>varOne</code> and <code>varTwo</code> are integers. The expression:
 
 ```
-!(varOne &#60; varTwo) &#38;&#38; !(varOne &#62; varTwo)
+!(varOne < varTwo) && !(varOne > varTwo)
 ```
 
 is equivalent to which of the following? <<
