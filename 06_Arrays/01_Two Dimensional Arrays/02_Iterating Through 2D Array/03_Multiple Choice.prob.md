@@ -8,10 +8,10 @@ public int exampleMethod(int[][] paramOne)
   int varOne;
   int max = 0;
 
-  for(row = 0; row &#60; paramOne.length; row++) {
-    for(column = 0; column &#60; paramOne[0].length; column++) {
+  for(row = 0; row < paramOne.length; row++) {
+    for(column = 0; column < paramOne[0].length; column++) {
       varOne = paramOne[row][column];
-      if(varOne &#62; max){
+      if(varOne > max){
         max = varOne;
       }
     }

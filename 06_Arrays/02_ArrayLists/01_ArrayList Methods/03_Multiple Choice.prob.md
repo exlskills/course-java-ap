@@ -1,7 +1,7 @@
 >>Consider the following code segment:
 
 ```
-ArrayList&#60;String&#62; varOne = new ArrayList&#60;String&#62;();
+ArrayList<String> varOne = new ArrayList<String>();
 varOne.add("Java");
 varOne.add("C++");
 varOne.add("Python");

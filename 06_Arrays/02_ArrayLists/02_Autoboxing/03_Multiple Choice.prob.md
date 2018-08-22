@@ -1,7 +1,7 @@
 >>Consider the following code segment:
 
 ```
-ArrayList&#60;Integer&#62; varOne = new ArrayList&#60;Integer&#62;();
+ArrayList<Integer> varOne = new ArrayList<Integer>();
 varOne.add(new Integer(1));
 varOne.add(new Integer(2));
 varOne.add(new Integer(3));
