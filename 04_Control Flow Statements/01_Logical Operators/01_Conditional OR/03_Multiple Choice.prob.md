@@ -3,18 +3,18 @@
 ```
 public static void exampleMethod(int paramOne, int paramTwo)
 {
-  if ((paramOne &#62; 0) &#38;&#38; (paramTwo &#62; 0)) {
-    if (paramOne &#62; paramTwo){
+  if ((paramOne > 0) && (paramTwo > 0)) {
+    if (paramOne > paramTwo){
       System.out.println("A");
     }
     else{
       System.out.println("B");
     }
   }
-  else if ((paramTwo &#60; 0) &#124;&#124; (paramOne &#60; 0)) {
+  else if ((paramTwo < 0) || (paramOne < 0)) {
     System.out.println("C");
   }
-  else if (paramTwo &#60; 0) {
+  else if (paramTwo < 0) {
     System.out.println("D");
   }
   else { 
