@@ -2,7 +2,7 @@
 
 ```
 private int calculate (int paramOne){
-  if (paramOne &#60;= 1){
+  if (paramOne <= 1){
     return 1;
   } else {
     return paramOne * calculate(paramOne - 2);
