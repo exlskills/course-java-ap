@@ -2,7 +2,7 @@
 
 ```
 String varOne = "abcdef";
-for (int count = 0; count &#60; varOne.length()-1; count++){
+for (int count = 0; count < varOne.length()-1; count++){
   System.out.print(varOne.substring(count, count+2));
 }
 ```

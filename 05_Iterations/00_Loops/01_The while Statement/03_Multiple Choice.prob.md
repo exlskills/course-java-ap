@@ -4,7 +4,7 @@
 int varOne = 3;
 int varTwo = 2;
 int varThree = 0;
-while (varOne &#60;= 5){
+while (varOne <= 5){
   varThree += varOne % varTwo;
   varOne++;
   varTwo++;

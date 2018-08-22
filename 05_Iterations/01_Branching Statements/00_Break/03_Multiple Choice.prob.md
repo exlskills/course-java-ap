@@ -2,10 +2,10 @@
 
 ```
 int varOne = 0;
-for (int count = 0; count &#60; 20; count++)
+for (int count = 0; count < 20; count++)
 {
   varOne ++;
-  if (varOne &#62; 3){
+  if (varOne > 3){
     break;
   }
 }
