@@ -1,5 +1,4 @@
->>Which of the following expressions is equivalent to:
-<code>!(varOne || varTwo)</code> <<
+>>Which of the following expressions is equivalent to: `!(varOne || varTwo)` <<
 
 ( ) <pre><code>(varOne || varTwo)</code></pre> {{Incorrect because negating an "OR" expression does not result in the same values previously inside the parenthesis.}}
 ( ) <pre><code>(varOne &amp;&amp; varTwo)</code></pre> {{Incorrect because <code>varOne</code> and <code>varTwo</code> have to be negated as well.}}
