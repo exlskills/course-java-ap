@@ -14,6 +14,11 @@ topics:
   - CompSci
 headline: Ace the AP® Computer Science A Exam with EXLskills!
 description: This is the EXLskills free and open-source AP® (Advanced Placement®) Java Course. It guides learners via explanation, demonstration, and thorough practice, from no more than a basic understanding of Java, to a moderate level of essential coding proficiency. It is a substantial amount of coursework that represents a typical year of high school-level study or a semester of a University computer science course. This course may also be used to prepare for the AP® Computer Science A exam.
+instructor_timekit:
+  intervals:
+    - credits: 5
+      duration_seconds: 1800
+      project_id: 9418a1b1-ab8b-4d26-ab8b-6c492e9cec7a
 info_md: |2
   # EXLskills AP® Computer Science A (Java) Course
 
