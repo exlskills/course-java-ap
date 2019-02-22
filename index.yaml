@@ -2,7 +2,7 @@ url_name: ap_java
 display_name: AP® Computer Science A (Java)
 org: EXLskills
 course: ap_java
-course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/ap-java-course.jpg
+course_image: https://cdn-course-logos.exlskills.com/ap-java-course.jpg
 language: en
 est_minutes: 1800
 primary_topic: Java
